@@ -19,3 +19,4 @@ foreach my $i (keys %sample_coverage)
 }
 $mean /= $count;
 my $std = sqrt( ( ($ssq / $count) - $mean * $mean) );
+```

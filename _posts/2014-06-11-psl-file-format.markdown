@@ -29,4 +29,4 @@ Here's my thumbnail sketch; it's used by Jim Kent's isPcr program.
 18 => blockSizes
 19 => qStarts
 20 => tStarts
-  ```
+```
