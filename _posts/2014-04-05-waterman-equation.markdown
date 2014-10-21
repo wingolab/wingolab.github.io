@@ -5,7 +5,7 @@ date: 2014-04-05 21:28:08.000000000 -04:00
 ---
 ##waterman equation
 
-`s ~ theta * sequence (in bp) * (ln(n-1) + 0.52)`
+    s ~ theta * sequence (in bp) * (ln(n-1) + 0.52)
 
 Where `n = number of chromosomes`.
 

@@ -15,14 +15,10 @@ date: 2014-08-22 10:39:40.000000000 -04:00
 
 The following works provided `X` is known without error:
 
-```
-Var{Y} = Var{mX + b} = Var{mX} + Var{b} + 2 Cov{Xm,b}
-Var{Y} = X^2 * Var{m} + Var{b} + 2 * X * Cov{m,b}
-```
+    Var{Y} = Var{mX + b} = Var{mX} + Var{b} + 2 Cov{Xm,b}
+    Var{Y} = X^2 * Var{m} + Var{b} + 2 * X * Cov{m,b}
 
 If `X` is a random varible with it's own mean `E{X}` and variance `Var{X}` then the the `Var{Y}` is given by:
 
-```
-Var{Y} = Var{mX + b}  
-Var{Y} = Var{b} + 2 * E{X} * Cov{m,b} + Var{X} * (E{m})^2 + Var{m} * (E{X})^2 + Var{m} * Var{x}
-```
+    Var{Y} = Var{mX + b}  
+    Var{Y} = Var{b} + 2 * E{X} * Cov{m,b} + Var{X} * (E{m})^2 + Var{m} * (E{X})^2 + Var{m} * Var{x}
