@@ -9,28 +9,38 @@ Imagine you have a project directory `project`, and you'd like to use git for ve
 
 Make the initial commit
 
-    cd project
-    git init
-    git add -A
-    git commit -m "initial commit - adding everything"
+```bash
+cd project
+git init
+git add -A
+git commit -m "initial commit - adding everything"
+```
 
 Clone the bare git directory
 
-	cd ..
-    git clone --bare ./project project.git
- 
+```bash
+cd ..
+git clone --bare ./project project.git
+```
+
 Copy the bare git repository to the server.
-   
-    scp -r ./project.git user@server:/opt/git/project.git
+
+```bash
+scp -r ./project.git user@server:/opt/git/project.git
+```
 
 Add the repository to your list of remotes
 
-	cd ./project
-    git remote add origin ssh://user@server:/opt/git/project.git
-    git remote -v
-    
+```bash
+cd ./project
+git remote add origin ssh://user@server:/opt/git/project.git
+git remote -v
+```
+
 Check the remote
 
-    git remote show origin
-    
+```bash
+git remote show origin
+```
+
 Check out the [git book](http://git-scm.com/book/en/Git-on-the-Server-Getting-Git-on-a-Server) for further details.

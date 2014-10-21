@@ -40,4 +40,4 @@ Mike is a population geneticist and shares our interest in using next-generation
 
 ### Eleanor A. Sharp
 
-Ellie examined patterns of inheritence among families with young-onset AD as part of Emory's [SURE program](http://www.cse.emory.edu/projects/students/sure.html) in the summer of 2012. She is currently a medical student at the University of Virginia School of Medicine.
+Ellie examined patterns of Inheritance among families with young-onset AD as part of Emory's [SURE program](http://www.cse.emory.edu/projects/students/sure.html) in the summer of 2012. She is currently a medical student at the University of Virginia School of Medicine.

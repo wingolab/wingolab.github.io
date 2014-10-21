@@ -8,13 +8,14 @@ You want to find the maximium likelihood standard deviation and mean.
 
 It might look like this:
 
-		my ($mean, $ssq, $count) = (0, 0, 0);
-		foreach my $i (keys %sample_coverage)
-		{
-		  my $depth = $sample_coverage{$i} / $tot_bases;
-		  $mean += $depth;
-		  $ssq  += $depth * $depth;
-		  $count++;
-		}
-		$mean /= $count;
-		my $std = sqrt( ( ($ssq / $count) - $mean * $mean) );
+```perl
+my ($mean, $ssq, $count) = (0, 0, 0);
+foreach my $i (keys %sample_coverage)
+{
+  my $depth = $sample_coverage{$i} / $tot_bases;
+  $mean += $depth;
+  $ssq  += $depth * $depth;
+  $count++;
+}
+$mean /= $count;
+my $std = sqrt( ( ($ssq / $count) - $mean * $mean) );
