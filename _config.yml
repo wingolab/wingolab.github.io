@@ -1,0 +1,25 @@
+# Site settings
+
+title: Wingo Lab
+#email: wingolab@emory.edu
+description: > # this means to ignore newlines until "baseurl:"
+  A genetics laboratory dedicated to finding and fighting the causes of Alzheimer's disease
+  and related neurodegenerative illnesses at the Atlanta Veterans Administration and Emory
+  University's Center for Neurodegenerative Disease.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://wingolab.org" # the base hostname & protocol for your site
+
+twitter_username: wingolab
+github_username: wingolab
+gaaccount: ''
+
+# Build settings
+permalink: /:year/:month/:title
+paginate: 3
+#highligher: pygments
+markdown: kramdown
+
+exclude:
+- README.md
+- LICENSE

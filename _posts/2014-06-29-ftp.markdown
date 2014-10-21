@@ -1,0 +1,7 @@
+---
+layout: post
+title: ftp
+date: 2014-06-29 23:32:06.000000000 -04:00
+---
+# passive ftp transfer
+Sometimes `ftp` is the only option for downloading files. Use `prompt` to enter a non-interactive mode for commands like `mgets`. In other words, you can download all the files in a directory with `mgets *` and not be prompted whehter you want to download each one.
