@@ -1,6 +1,6 @@
 ---
 layout: post
-title: git
+title: git remote repository stuff
 date: 2014-07-13 21:46:53.000000000 -04:00
 ---
 # setting up a remote repository
@@ -23,10 +23,10 @@ Copy the bare git repository to the server.
 
     scp -r ./project.git user@server:/opt/git/project.git
 
-Add the repository to your list of remotes
+Add the repository to your list of remotes using the standard `user@server:port` format.
 
     cd ./project
-    git remote add origin ssh://user@server:/opt/git/project.git
+    git remote add origin ssh://user@server:port/opt/git/project.git
     git remote -v
 
 Check the remote
