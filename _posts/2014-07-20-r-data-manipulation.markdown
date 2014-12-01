@@ -16,7 +16,7 @@ Recoding missing data, example:
 
 Recoding non-missing data, example:
 
-data_e$V6[data_e$V6==20] <- 21.2
+    data_e$V6[data_e$V6==20] <- 21.2
 
 ### use `factor` to recode variables
 
