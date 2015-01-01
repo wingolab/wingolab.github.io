@@ -4,6 +4,16 @@ title: "mysql commands"
 date: "2014-11-30"
 ---
 
+### use mysql command line
+
+    mysql --user=genome --host=genome-mysql.cse.ucsc.edu -A -H -D hg38 -e "select * from hg38.snp141 where hg38.snp141.name = 'rs7412';"
+
+If you have a certificate from whoever is running a secured mysql server you'll need to tell `mysql` to use it.
+
+    mysql --user=<user> --host=<ip_address> --port=<port> --ssl-ca=<file, generally in the pem format> --password
+
+MySql will prompt you for your password after entring the command.
+
 ### use database
 
     USE sampdb;
@@ -259,7 +269,7 @@ Taken from MySQL, 5th Ed. by Paul DuBois, `Print ISBN-13: 978-0-321-83387-7`.
 
 ### DBI tracing
 
-There are 4 levels of tracing with `DBI->trace(0)` having no tracing. You can turn on tracing a couple of ways. In the script, after preparing the statement do this, `$sth->trace(1)`. Alternatively, when you connect turn it on with ``$dbh->{Tracelevel} = 3`. Finally, you can set an environmental variable in the shell, e.g., `export DBI_TRACE=3` and to turn it off `export DBI_TRACE=0`.
+There are 4 levels of tracing with `DBI->trace(0)` having no tracing. You can turn on tracing a couple of ways. In the script, after preparing the statement do this, `$sth->trace(1)`. Alternatively, when you connect turn it on with `$dbh->{Tracelevel} = 3`. Finally, you can set an environmental variable in the shell, e.g., `export DBI_TRACE=3` and to turn it off `export DBI_TRACE=0`.
 
 ### DBI meta data.
 
