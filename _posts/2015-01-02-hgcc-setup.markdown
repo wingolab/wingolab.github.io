@@ -6,11 +6,13 @@ date: "2015-01-02"
 
 # setup local env on hgcc
 
-I use a directory called `~/software` and `git` (mostly) to clone repositories
-and build them. I have a "local system" directory, called `local` that I store
-all my build stuff and other things that can be lost without loosing any sleep.
+I clone or download software into `~/software`. Upon building software, I use
+a "local system" directory called `local` (usually supplied with
+`--prefix=$HOME/local` option to the `./configure` utility), called `local` that
+contains folders like `bin`, `etc`, `lib`, `lib64`, `share`, etc; this folder
+can be lost without loosing any especially valuable.
 
-## bashrc
+### bashrc
 
 Ensure you have the following in your paths.
 
@@ -36,13 +38,12 @@ Ensure you have the following in your paths.
     export R_LIBS=${HOME}/local/lib/R
 
 
-### curl
+### curl - tests fail at ~700... not sure why.
 
     git clone git://github.com/bagder/curl.git
     cd curl
     ./configure --prefix=${HOME}/local
     make
-    make test # fails at ~700.. not sure why
     make install
 
 ### git
@@ -54,7 +55,7 @@ Ensure you have the following in your paths.
     make all doc
     make install install-doc install-html
 
-### perl stuff
+### perl stuff - cpanminus, local::lib, etc.
 
     git clone https://github.com/miyagawa/cpanminus
     cd cpanminus
@@ -71,7 +72,7 @@ Ensure you have the following in your paths.
     git clone git://gcc.gnu.org/git/gcc.git
     cd gcc
 
-### gcc dependency, gmp
+### gcc dependency, **gmp**
 
     wget http://ftp.gnu.org/gnu/gmp/gmp-5.1.3.tar.gz
     wget http://ftp.gnu.org/gnu/gmp/gmp-5.1.3.tar.gz.sig
@@ -125,7 +126,7 @@ Ensure you have the following in your paths.
 
 Browse [here](http://sourceforge.net/projects/boost/) to get the latest binary package.
 
-## Linear Algebra PACKage (lapack), which includes BLAS
+### Linear Algebra PACKage (lapack), which includes BLAS
 
 Get it [here](http://www.netlib.org/lapack/).
 
@@ -133,7 +134,7 @@ Get it [here](http://www.netlib.org/lapack/).
     tar xzf lapack-3.5.0.tgz
 
 
-## GNU Scientific Library [GSL](http://ftp.gnu.org/gnu/gsl/)
+### GNU Scientific Library [GSL](http://ftp.gnu.org/gnu/gsl/)
 
     wget http://ftp.gnu.org/gnu/gsl/gsl-1.16.tar.gz
     wget http://ftp.gnu.org/gnu/gsl/gsl-1.16.tar.gz.sig
