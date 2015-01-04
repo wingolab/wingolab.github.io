@@ -35,14 +35,14 @@ Ensure you have the following in your paths.
     #export PERL5LIB=${LOC_SYS}/perl5/lib/perl5
 
     # local R lib
-    export R_LIBS=${HOME}/local/lib/R
+    export R_LIBS=${LOC_SYS}/lib/R
 
 
 ### curl - tests fail at ~700... not sure why.
 
     git clone git://github.com/bagder/curl.git
     cd curl
-    ./configure --prefix=${HOME}/local
+    ./configure --prefix=${LOC_SYS}
     make
     make install
 
@@ -51,7 +51,7 @@ Ensure you have the following in your paths.
     git clone https://github.com/git/git.git
     cd git
     make configure
-    ./configure --prefix=${HOME}/local --with-curl=${HOME}/local
+    ./configure --prefix=${LOC_SYS} --with-curl=${LOC_SYS}
     make all doc
     make install install-doc install-html
 
@@ -79,7 +79,7 @@ Ensure you have the following in your paths.
     gpg --keyserver keyserver.ubuntu.com --recv-keys 28C67298
     gpg --verify gmp-5.1.3.tar.gz.sig
     cd gmp-5.1.3
-    ./configure --prefix=${HOME}/local
+    ./configure --prefix=${LOC_SYS}
     make
     make install
     cd ..
@@ -88,7 +88,7 @@ Ensure you have the following in your paths.
 
     wget ftp://gcc.gnu.org/pub/gcc/infrastructure/isl-0.14.tar.bz2
     tar xjf isl-0.14.tar.bz2
-    ./configure --prefix=${HOME}/local --with-gmp-prefix=${HOME}/local
+    ./configure --prefix=${LOC_SYS} --with-gmp-prefix=${LOC_SYS}
 
 ### gcc dependency, **mpfr**
 
@@ -98,7 +98,7 @@ Ensure you have the following in your paths.
     gpg --verify mpfr-3.1.2.tar.gz.sig
     tar xvf mpfr-3.1.2.tar.gz
     make
-    ./configure --prefix=${HOME}/local --with-gmp=${HOME}/local/
+    ./configure --prefix=${LOC_SYS} --with-gmp=${LOC_SYS}/
     make
     make install
     cd ..
@@ -110,17 +110,17 @@ Ensure you have the following in your paths.
     gpg --keyserver keyserver.ubuntu.com --recv-keys 765C61E3
     gpg --verify mpc-1.0.2.tar.gz.sig
     tar xvf mpc-1.0.2.tar.gz
-    ./configure --prefix=${HOME}/local --with-gmp=${HOME}/local/ \
-     --with-mpfr=${HOME}/local/
+    ./configure --prefix=${LOC_SYS} --with-gmp=${LOC_SYS}/ \
+     --with-mpfr=${LOC_SYS}/
     make
     make install
     cd ..
 
     # now, we're ready to make gcc
-    ./configure --prefix=${HOME}/local --with-gmp=${HOME}/local/ \
-     --with-mpfr=${HOME}/local/ --with-mpc=${HOME}/local/ --disable-multilib \
+    ./configure --prefix=${LOC_SYS} --with-gmp=${LOC_SYS}/ \
+     --with-mpfr=${LOC_SYS}/ --with-mpc=${LOC_SYS}/ --disable-multilib \
      --enable-threads=posix --enable-plugin --enable-initfini-array \
-     --with-isl=${HOME}/local/
+     --with-isl=${LOC_SYS}/
 
 ### boost
 
