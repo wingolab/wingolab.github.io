@@ -6,6 +6,10 @@ date: "2015-01-03"
 
 # Perl and text
 
+This is, of course, where Perl really shines. What I'm mentioning here are some
+ways of getting re-formatted data back in some usable format (mostly for
+others).
+
 ## read csv
 
     use Text::CSV_XS;
@@ -16,7 +20,9 @@ date: "2015-01-03"
 
     use Text::CSV_XS;
     use Text::Iconv;
-    my $csv_writer = Text::CSV_XS->new({binary => 1, auto_diag => 1, always_quote => 1, eol => "\n"});
+    my $csv_writer = Text::CSV_XS->new({
+      binary => 1, auto_diag => 1, always_quote => 1, eol => "\n"
+    });
 
 ## read xls
 
@@ -38,10 +44,10 @@ date: "2015-01-03"
     use Excel::Writer::XLSX;
     my $workbook = Excel::Writer::XLSX->new("$out_ext.xlsx");
     $workbook->set_properties(
-                               title    => "data created by $prog_name on $now_time",
-                               author   => 'TS Wingo',
-                               comments => 'created with perl and Excel::Writer::XLSX'
-                             );
+      title    => "data created by $prog_name on $now_time",
+      author   => 'TS Wingo',
+      comments => 'created with perl and Excel::Writer::XLSX'
+    );
 
 # Perl and seralizing data
 
@@ -64,23 +70,41 @@ date: "2015-01-03"
     use DateTime::Format::Strptime;
 
     # some common ones I've (unfortuneately) encountered
-    my $strp_dt_iso    = DateTime::Format::Strptime->new(pattern => '%F', on_error => 'croak'); # YYYY-MM-DD
-    my $strp_dt_us_12h = DateTime::Format::Strptime->new(pattern => '%m/%d/%Y %I:%M:%S %p', on_error => 'croak'); # MM/DD/YYYY HH:MM:SS AM/PM (12h time)
-    my $strp_dt_us     = DateTime::Format::Strptime->new(pattern => '%m/%d/%Y', on_error => 'croak'); # MM/DD/YYYY
-    my $strp_dt_crazy  = DateTime::Format::Strptime->new(pattern => '%d-%B-%y', on_error => 'croak'); # DD-Mos-YY (month = 3 letter abbreviation)
+
+    # YYYY-MM-DD
+    my $strp_dt_iso    = DateTime::Format::Strptime->new(
+      pattern => '%F', on_error => 'croak'
+    );
+
+    # MM/DD/YYYY HH:MM:SS AM/PM (12h time)  
+    my $strp_dt_us_12h = DateTime::Format::Strptime->new(
+      pattern => '%m/%d/%Y %I:%M:%S %p', on_error => 'croak'
+    );
+
+    # MM/DD/YYYY
+    my $strp_dt_us     = DateTime::Format::Strptime->new(
+      pattern => '%m/%d/%Y', on_error => 'croak'
+    );
+
+    # DD-Mos-YY (month = 3 letter abbreviation)
+    my $strp_dt_crazy  = DateTime::Format::Strptime->new(
+      pattern => '%d-%B-%y', on_error => 'croak'
+    );
 
     # parse
     $dt = $strp_dt_us->parse_datetime($this_data{date});
 
-## what's the time?
+## get current time?
 
     use Time::localtime;
     # time
     my $now_time       = ctime();
     # date
-    my $now_timestamp  = sprintf("%d-%d-%d", eval(localtime->year() + 1900), eval(localtime->mon() + 1), localtime->mday());
+    my $now_timestamp  = sprintf("%d-%d-%d", eval(localtime->year() + 1900),
+      eval(localtime->mon() + 1), localtime->mday());
 
-# file modified time
+
+## file modified time
 
     use Time::localtime;
     use File::stat;
