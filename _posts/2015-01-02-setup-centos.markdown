@@ -48,9 +48,12 @@ clone cpanminus
 
 run cpanm and install local::lib
 
+    git clone https://github.com/miyagawa/cpanminus
     cd cpanminus
-    ./cpanm --local-lib=~/perl5 local::lib && eval $(perl -I ~/perl5/lib/perl5/ -Mlocal::lib)
+    ./cpanm --local-lib=~/local/perl5 local::lib && \
+    eval $(perl -I ${LOC_SYS}/perl5/lib/perl5/ -Mlocal::lib=${LOC_SYS}/perl5)
+    cpanm App::cpanminus
 
-installl cpanminus
+add this to `.bashrc` for perl local::lib
 
-    ./cpanm App::cpanminus
+    eval $(perl -I${LOC_SYS}/perl5/lib/perl5 -Mlocal::lib=${LOC_SYS}/perl5)

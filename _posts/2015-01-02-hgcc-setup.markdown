@@ -60,7 +60,7 @@ Ensure you have the following in your paths.
     git clone https://github.com/miyagawa/cpanminus
     cd cpanminus
     ./cpanm --local-lib=~/local/perl5 local::lib && \
-     eval $(perl -I ~/local/perl5/lib/perl5/ -Mlocal::lib)
+     eval $(perl -I${LOC_SYS}/perl5/lib/perl5 -Mlocal::lib=${LOC_SYS}/perl5)
 
     cpanm Cpanel::JSON::XS Excel::Writer::XLSX Getopt::Long IO::Compress::Gzip \
      IO::Uncompress::Gunzip Math::GSL Modern::Perl MongoDB MongoDB::OID \
