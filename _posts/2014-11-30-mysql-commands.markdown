@@ -14,6 +14,12 @@ If you have a certificate from whoever is running a secured mysql server you'll 
 
 MySql will prompt you for your password after entring the command.
 
+## interactive mysql examples
+
+The following examples assume you're connected to a mysql instance. You could do that like so -
+
+    mysql --user=genome --host=genome-mysql.cse.ucsc.edu -A
+
 ### use database
 
     USE sampdb;
