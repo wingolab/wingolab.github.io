@@ -10,6 +10,21 @@ This is, of course, where Perl really shines. What I'm mentioning here are some
 ways of getting re-formatted data back in some usable format (mostly for
 others).
 
+## command line
+
+### split automatically on white-space
+
+Splitting text on the command line with `-a` creates `@F` automatically, which
+has all of the processed text.
+
+    perl -alE '{ print $F[3]; }' some_file
+
+### specify how to split each line with `-F`
+
+Specifying `-F` implicitly sets `-a` and `-n`. To split using the semicolon try:
+
+    perl -F';' -lE '{print $F[2]; }' some_file
+
 ## read csv
 
     use Text::CSV_XS;
