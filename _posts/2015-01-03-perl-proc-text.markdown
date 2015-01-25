@@ -6,13 +6,13 @@ date: "2015-01-03"
 
 # Perl and text
 
-This is, of course, where Perl really shines. What I'm mentioning here are some
-ways of getting re-formatted data back in some usable format (mostly for
-others).
+This is, of course, where Perl really shines. I'm including some information on
+command line options, see `perldoc perlrun` for more details, and a handful of
+other packages to read/write common representations of data.
 
 ## command line
 
-### split automatically on white-space
+### split lines automatically on white-space
 
 Splitting text on the command line with `-a` creates `@F` automatically, which
 has all of the processed text.
@@ -23,7 +23,7 @@ has all of the processed text.
 
 Specifying `-F` implicitly sets `-a` and `-n`. To split using the semicolon try:
 
-    perl -F';' -lE '{print $F[2]; }' some_file
+    perl -F';' -lE '{ print $F[2]; }' some_file
 
 ## read csv
 
