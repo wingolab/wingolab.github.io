@@ -21,7 +21,7 @@ Originally found [here](http://juerd.nl/site.plp/perlcheat).
     []    anon. arrayref  ${$$foo[1]}[2] aka $foo->[1]->[2]
     {}    anon. hashref   ${$$foo[1]}[2] aka $foo->[1][2]
     \()   list of refs
-    NUMBERS vs STRINGS  LINKS
+                            NUMBERS vs STRINGS  LINKS
     OPERATOR PRECEDENCE     =          =        perl.plover.com
     ->                      +          .        search.cpan.org
     ++ --                   == !=      eq ne         cpan.org
@@ -46,15 +46,15 @@ Originally found [here](http://juerd.nl/site.plp/perlcheat).
     not              (?:)  no capture       .  == [^\n]
     and              []    character class  \s == [\x20\f\t\r\n]
     or xor           |     alternation      \w == [A-Za-z0-9_]
-    \b    word boundary    \d == [0-9]
-    \z    string end       \S, \W and \D negate
+                     \b    word boundary    \d == [0-9]
+                     \z    string end       \S, \W and \D negate
     DO
     use strict;        DON'T            LINKS
     use warnings;      "$foo"           perl.com
     my $var;           $$variable_name  perlmonks.org  
     open() or die $!;  `$userinput`     use.perl.org
-    use Modules;       /$userinput/     perl.apache.org
-    parrotcode.org
+    use Modules;       /$userinput/     perl.apache.org parrotcode.org
+
     FUNCTION RETURN LISTS
     stat      localtime    caller         SPECIAL VARIABLES
     0 dev    0 second     0 package      $_    default variable
