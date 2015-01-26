@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "perl cheatsheet"
+title: "perl cheat sheet"
 date: "2015-01-25"
 ---
 
-# the cheatsheet
+# perl cheat sheet
 
 Originally found [here](http://juerd.nl/site.plp/perlcheat).
 
