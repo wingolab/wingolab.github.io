@@ -53,7 +53,8 @@ Originally found [here](http://juerd.nl/site.plp/perlcheat).
     use warnings;      "$foo"           perl.com
     my $var;           $$variable_name  perlmonks.org  
     open() or die $!;  `$userinput`     use.perl.org
-    use Modules;       /$userinput/     perl.apache.org parrotcode.org
+    use Modules;       /$userinput/     perl.apache.org
+                                        parrotcode.org
 
     FUNCTION RETURN LISTS
     stat      localtime    caller         SPECIAL VARIABLES
