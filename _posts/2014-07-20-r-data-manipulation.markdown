@@ -24,6 +24,25 @@ Here, APOE has 3 levels or doses, and we're arbitrarily naming those doses as A,
 
     test <- factor(df$APOE, labels=c("A", "B", "C"))
 
+### summarizing data
+
+For tabular data, the builtin function `table` and `sumamry` functions are
+helpful.
+
+    table (lab$apoe, lab$eoad)
+
+For continuous data, the builtin `summary` and `Hmisc` package's `describe`
+functions can help.
+
+    library(Hmisc)
+    describe(lab$age)
+
+For summarizing groups, the `psych` package has a `describeBy` function that is
+helpful.
+
+    library(psych)
+    describeBy(lab$age, lab$load)
+
 ### plotting
 
 density plot example:
