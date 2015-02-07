@@ -6,6 +6,16 @@ date: 2014-07-20 16:55:59.000000000 -04:00
 
 Some snippets to jog my memory.
 
+### install local lib
+
+In `.bashrc` or similar file define a R_LIBS dir.
+
+    export R_LIBS=/home/me/local/R/
+
+When installing use the `-l` switch to install locally.
+
+    R CMD INSTALL -l $R_LIBS Some_R_package.tar.gz
+
 ### recode `missing` variables
 
 Recoding missing data, example:
