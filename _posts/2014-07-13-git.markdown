@@ -21,7 +21,7 @@ Clone the bare git directory
 
 Copy the bare git repository to the server.
 
-    scp -r ./project.git user@server:/opt/git/project.git
+    scp P <port> -r ./project.git user@server:/opt/git/project.git
 
 Add the repository to your list of remotes using the standard `user@server:port` format.
 
