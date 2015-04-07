@@ -9,8 +9,9 @@ date: "2015-04-01"
 Lots of people like `Try::Tiny`, which is fine. I have used the following approach
 that I got from a book, somewhere in the back I think, but also has been written
 about by others (see refs below). Basically, you just put the thing that might
-fail in an eval block, as per usual,  and inspect the return value and not don't
-necessarily depend on `$@` to have the right error since it can be clobbered sometimes.
+fail in an eval block, as per usual, and inspect the return value (without
+necessarily depend on `$@` to have the right error since it can be clobbered
+sometimes).
 
     eval {
 
