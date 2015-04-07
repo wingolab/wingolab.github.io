@@ -19,7 +19,7 @@ Clone the bare git directory
     cd ..
     git clone --bare ./project project.git
 
-Copy the bare git repository to the server.
+Recursively copy the bare git repository to the server.
 
     scp P <port> -r ./project.git user@server:/opt/git/project.git
 
@@ -32,5 +32,16 @@ Add the repository to your list of remotes using the standard `user@server:port`
 Check the remote
 
     git remote show origin
+
+## reverting changes to HEAD for a _single_ file
+
+To revert changes for a given file to the latest commit (i.e., HEAD):
+
+    git checkout filename
+
+If the file you wish to revert _happens to be the name of a branch_:
+
+    git checkout -- filename
+
 
 Check out the [git book](http://git-scm.com/book/en/Git-on-the-Server-Getting-Git-on-a-Server) for further details.
