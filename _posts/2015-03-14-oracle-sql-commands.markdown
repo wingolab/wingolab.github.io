@@ -21,7 +21,7 @@ seem to have some equivalency.
 
 List all of the tables you can view.
 
-    select TABLE_NAME, OWNER from SYS.ALL_TABLES order by OWNER, TABLE_NAMES;
+    select TABLE_NAME, OWNER from SYS.ALL_TABLES order by OWNER, TABLE_NAME;
 
 Add `where OWNER = 'some_schema'` if desired.
 
