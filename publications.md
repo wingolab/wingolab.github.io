@@ -3,7 +3,7 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-Realistically, a more up to date list is probably present in either [pubmed](http://www.ncbi.nlm.nih.gov/pubmed?term=%22Wingo%20TS%22%5BAuthor%5D "http://www.ncbi.nlm.nih.gov/pubmed?term="Wingo TS"[Author]") or [google scholar](http://scholar.google.com/scholar?as_q=&num=10&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22wingo+ts%22&as_publication=&as_ylo=&as_yhi=&as_sdt=1.&as_sdtp=on&as_sdtf=&as_sdts=11&btnG=Search+Scholar&hl=en "http://scholar.google.com/scholar?as_q=&num=10&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors="wingo+ts"&as_publication=&as_ylo=&as_yhi=&as_sdt=1.&as_sdtp=on&as_sdtf=&as_sdts=11&btnG=Search+Scholar&hl=en"), but there is some supplementary data for some of our papers not saved by either the publisher or NIH.
+The following is a list of selected publications I had a significant role in developing. [My bibliography](http://www.ncbi.nlm.nih.gov/sites/myncbi/thomas.wingo.1/bibliography/40147794/public/?sort=date&direction= descending) at NCBI has a completel list of my publications; my [google scholar](https://scholar.google.com/citations?user=kJYqCEsAAAAJ&hl=en&oi=ao) has most of my publications but is not as frequently updated.
 
 - Hales CM, Rees HD, Seyfried NT, Dammer EB, Duc D, Gearing M, Montine T, Troncoso J, Thambisetty M, Levey AI, Lah JJ, and **Wingo TS**†. (2013) Abnormal Gephyrin Immunoreactivity Associated with Alzheimer's Disease Pathologic Changes. J Neuropathology and Experimental Neurology. 72(11):1009-15. PMID: 24128675 PMC: 4037931
 
