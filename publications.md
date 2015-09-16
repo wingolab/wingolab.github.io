@@ -3,7 +3,9 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-The following is a list of selected publications I had a significant role in developing. [My bibliography](http://www.ncbi.nlm.nih.gov/sites/myncbi/thomas.wingo.1/bibliography/40147794/public/?sort=date&direction= descending) at NCBI has a completel list of my publications; my [google scholar](https://scholar.google.com/citations?user=kJYqCEsAAAAJ&hl=en&oi=ao) has most of my publications but is not as frequently updated.
+The following is a list of selected publications I had a significant role in developing. [My bibliography](http://www.ncbi.nlm.nih.gov/sites/myncbi/thomas.wingo.1/bibliography/40147794/public/?sort=date&direction= descending) at NCBI has a complete list of my publications; my [google scholar](https://scholar.google.com/citations?user=kJYqCEsAAAAJ&hl=en&oi=ao) has most of my publications but is not as frequently updated.
+
+- Jin SC, Carrasquillo MM, Benitez BA, Skorupa T, Carrell D, Patel D, Lincoln S, Krishnan S, Kachadoorian M, Reitz C, Mayeux R, **Wingo TS**, Lah JJ, Levey AI, Murrell J, Hendrie H, Foroud T, Graff-Radford NR, Goate AM, Cruchaga C, Ertekin-Taner N. TREM2 is associated with increased risk for Alzheimer's disease in African Americans. Mol Neurodegener. 2015 Apr 10;10(1):19. PMID: 25886450
 
 - Hales CM, Rees HD, Seyfried NT, Dammer EB, Duc D, Gearing M, Montine T, Troncoso J, Thambisetty M, Levey AI, Lah JJ, and **Wingo TS**†. (2013) Abnormal Gephyrin Immunoreactivity Associated with Alzheimer's Disease Pathologic Changes. J Neuropathology and Experimental Neurology. 72(11):1009-15. PMID: 24128675 PMC: 4037931
 
