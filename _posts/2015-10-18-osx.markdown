@@ -1,0 +1,29 @@
+---
+layout: post
+title: "OSX"
+date: "2015-10-18"
+---
+
+
+# Get/Set file attributes in OS X
+
+Commands: `GetFileInfo` and `SetFile`
+
+Once I had a folder turned into a package so that every time the folder was
+opened it would launch terminal. Not sure how this happened exactly. To solve
+this:
+
+```
+$ GetFileInfo /path/to/folder
+    directory: "/path/to/folder"
+    attributes: avBstclinmEdz
+    created: 03/17/2015 11:30:57
+    modified: 10/18/2015 09:24:30
+```
+
+Note the `B` attribute is set indicating that the folder is a "bundle". Change
+it back to a folder with `SetFile`.
+
+```
+$ SetFile -a b /path/to/folder
+```
