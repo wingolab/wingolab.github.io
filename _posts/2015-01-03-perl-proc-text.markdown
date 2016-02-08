@@ -15,9 +15,11 @@ other packages to read/write common representations of data.
 ### split lines automatically on white-space
 
 Splitting text on the command line with `-a` creates `@F` automatically, which
-has all of the processed text.
+has all of the processed text. It must be used with either the `-n` or `-p`
+options, which both place a loop around your script. The difference being that
+`-p` executes your commands and *prints* the value of `$_` afterward.
 
-    perl -alE '{ print $F[3]; }' some_file
+    perl -nalE '{ print $F[3]; }' some_file
 
 ### specify how to split each line with `-F`
 
