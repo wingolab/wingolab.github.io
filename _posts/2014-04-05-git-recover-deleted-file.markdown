@@ -14,9 +14,13 @@ from [stack exchange](https://stackoverflow.com/questions/953481/restore-a-delet
 1.  First, you'll need to remove the file from the branches. You might want to
 clone the repository first so you're working with a copy.
 
+```
     git clone --bare repo.git repoCopy.git
     git filter-branch --tree-filter 'rm -f ACCIDENTALLY_COMMITTED_FILE.txt' HEAD
+```
 
 2. Second, force the new commits to the remote repository
 
+```
     git push --force origin master
+```
