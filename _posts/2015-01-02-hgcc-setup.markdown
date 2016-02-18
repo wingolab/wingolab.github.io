@@ -62,10 +62,10 @@ Ensure you have the following in your paths.
     ./cpanm --local-lib=~/local/perl5 local::lib && \
      eval $(perl -I${LOC_SYS}/perl5/lib/perl5 -Mlocal::lib=${LOC_SYS}/perl5)
 
-    cpanm Cpanel::JSON::XS Excel::Writer::XLSX Getopt::Long IO::Compress::Gzip \
-     IO::Uncompress::Gunzip Math::GSL Modern::Perl MongoDB MongoDB::OID \
-     Spreadsheet::ParseExcel Spreadsheet::XLSX Text::CSV_XS Text::Iconv \
-     Time::localtime MooseX::Role::MongoDB Path::Class IO::All Task::Kensho
+     cpanm JSON Cpanel::JSON::XS Excel::Writer::XLSX Getopt::Long IO::Zlib \
+      Compress::Zlib Path::Tiny File::chdir IO::All Math::GSL \
+      Modern::Perl Spreadsheet::ParseExcel Spreadsheet::XLSX \
+      Text::CSV_XS Text::Iconv Text::CSV Time::localtime Task::Kensho
 
 ### gcc
 
