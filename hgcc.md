@@ -1,6 +1,6 @@
 ---
 layout: page
-title: HGCC Guide
+title: HGCC
 permalink: /hgcc/
 ---
 
@@ -34,6 +34,7 @@ permalink: /hgcc/
 - There are two queues defined on HGCC – b.q and i.q
 
 `b.q`
+
 - For batch (non-interactive) jobs
 - Restricted to node01 – node06
 - Job defaults: *1 core / 8GB RAM*
@@ -45,6 +46,7 @@ permalink: /hgcc/
   slide on requesting additional resources).
 
 `i.q`
+
   - For interactive jobs, e.g. to run program with a GUI, or requiring command
   line access
   - Restricted to node07 – node09
@@ -97,6 +99,7 @@ run on a compute node.
 # Strategy:  Use Modules
 
 - Commands (square brackets indicate optional information)
+
 ```
 module avail                    # Display available modules
 module load <name[/version]\>   # Load a module
@@ -109,6 +112,7 @@ module purge                    # Unload all loaded modules
 
 1. Create a folder to hold all files related to the task/project
  - Recommended folder structure
+ 
 ```
 ${HOME}/project
 ${HOME}/project/data
