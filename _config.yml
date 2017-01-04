@@ -24,4 +24,4 @@ theme: minima
 exclude:
 - README.md
 - LICENSE
-- hgcc/sgeOnHgcc.md
+- sgeOnHgcc.md
