@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Human Genetics Compute Cluster Guide
+title: HGCC Guide
 permalink: /hgcc/
 ---
 
