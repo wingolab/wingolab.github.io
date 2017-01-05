@@ -228,12 +228,11 @@ qstat –u ‘\*’
 
 - Use `qdel` to delete a job
 - `qdel` takes the job-ID from qstat
-
-Example:
 ```
 # usage: qdel <job Id>
 qdel 37788
 ```
+
 Of course, you can only delete your jobs.
 
 ```
