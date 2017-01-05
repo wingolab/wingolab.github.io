@@ -97,6 +97,7 @@ run on a compute node.
 # Strategy:  Use Modules
 
 - Commands (square brackets indicate optional information)
+
 ```
 module avail                    # Display available modules
 module load <name[/version]\>   # Load a module
@@ -109,6 +110,7 @@ module purge                    # Unload all loaded modules
 
 1. Create a folder to hold all files related to the task/project
  - Recommended folder structure
+
 ```
 ${HOME}/project
 ${HOME}/project/data
