@@ -177,20 +177,24 @@ module unload FastQC
 
 3. submit your job:
   - Change into the logs folder:
+
 ```
 # change to the log folder
 cd ${HOME}/project/logs
 # submit the job
 qsub –q b.q –cwd –j y ../sge/step01_fasqtc.sh <sample_name>  
 ```
+
   - This command will run your job, generate logs in the current directory,
   and merge the .o and .e files into one.
   - You may include other SGE options in the above command line or in your
   script.
   - One useful option is to have SGE email you when the job completes:
+
 ```
 qsub –q b.q –cwd –j y –M youremail@emory.edu ../sge/step01_fastqc.sh <sample_name>
 ```
+
   - SGE options may also be included in the job script instead of specifying
   them on the command line.
 
@@ -230,6 +234,7 @@ qstat –u ‘\*’
 
 - Use `qdel` to delete a job
 - `qdel` takes the job-ID from qstat
+
 ```
 # usage: qdel <job Id>
 qdel 37788
