@@ -176,7 +176,6 @@ module unload FastQC
 # Example 1: run FastQC on a single file
 
 3. submit your job:
-  - Change into the logs folder:
 
 ```
 # change to the log folder
