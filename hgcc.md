@@ -233,7 +233,6 @@ Example:
 ```
 # usage: qdel <job Id>
 qdel 37788
-
 ```
 Of course, you can only delete your jobs.
 
