@@ -167,8 +167,7 @@ module unload FastQC
 # Example 1: run FastQC on a single file
 
 3. submit your job:
-
-- Change into the logs folder:
+  - Change into the logs folder:
 ```
 # change to the log folder
 cd ${HOME}/project/logs
@@ -190,19 +189,21 @@ qsub –q b.q –cwd –j y –M youremail@emory.edu ../sge/step01_fastqc.sh <sa
 
 - Assumption: you have many fastq files in your `project/data` folder. 
 - Complete steps 1 and 2 as shown for Example 1.
-- Change to the logs folder
-```
-cd ${HOME}/project/logs
-```
-- Write a shell loop command to submit all of your fastq files (notice
+- Here's a shell loop command to submit all of your fastq files (notice
 relative path to the data folder)
+
 ```
+# change to the log directory
+cd ${HOME}/project/logs
+
+# loop through your gzipped fastq files
 for F in `find ../data –name \*.fastq.gz –print`; do
   S=$(basename $F | sed 's/\.fastq\.gz$//')
   qsub –q b.q –cwd –j y ../sge/step01_fastqc.sh $S
 done
 ```
-- Note: qsub limit is 500 jobs. For larger numbers use array jobs.
+
+Note: qsub limit is 500 jobs. For larger numbers use array jobs.
 
 # SGE: Checking the status of jobs
 
@@ -218,13 +219,17 @@ qstat –u ‘\*’
 
 # SGE: To delete a job
 
-- Use qdel to delete a job
-- Requires job-ID from qstat
-```
-qdel 37788
-```
+- Use `qdel` to delete a job
+- `qdel` takes the job-ID from qstat
 
-- Of course, you can only delete your jobs.
+Example:
+```
+# usage: qdel <job Id>
+qdel 37788
+
+```
+Of course, you can only delete your jobs.
+
 ```
 qdel 37788
 vpatel - you do not have the necessary privileges to delete the job

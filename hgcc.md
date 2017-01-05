@@ -9,7 +9,7 @@ permalink: /hgcc/
 - Revision: 2017-01-03
 - Original by: Viren Patel
 - Edited by: TS Wingo
-- [Original markdown](sgeOnHgcc.md)
+- [Original markdown file](https://github.com/wingolab/wingolab.github.io/blob/master/sgeOnHgcc.md)
 - Requirements:
   1. Familiarity with Linux command line
     - See [The Linux Command Line by William E. Shotts, Jr.](http://linuxcommand.org/tlcl.php/)
@@ -34,7 +34,6 @@ permalink: /hgcc/
 - There are two queues defined on HGCC – b.q and i.q
 
 `b.q`
-
 - For batch (non-interactive) jobs
 - Restricted to node01 – node06
 - Job defaults: *1 core / 8GB RAM*
@@ -46,7 +45,6 @@ permalink: /hgcc/
   slide on requesting additional resources).
 
 `i.q`
-
   - For interactive jobs, e.g. to run program with a GUI, or requiring command
   line access
   - Restricted to node07 – node09
@@ -99,7 +97,6 @@ run on a compute node.
 # Strategy:  Use Modules
 
 - Commands (square brackets indicate optional information)
-
 ```
 module avail                    # Display available modules
 module load <name[/version]\>   # Load a module
@@ -112,7 +109,6 @@ module purge                    # Unload all loaded modules
 
 1. Create a folder to hold all files related to the task/project
  - Recommended folder structure
-
 ```
 ${HOME}/project
 ${HOME}/project/data
@@ -178,8 +174,7 @@ module unload FastQC
 # Example 1: run FastQC on a single file
 
 3. submit your job:
-
-- Change into the logs folder:
+  - Change into the logs folder:
 ```
 # change to the log folder
 cd ${HOME}/project/logs
@@ -201,19 +196,21 @@ qsub –q b.q –cwd –j y –M youremail@emory.edu ../sge/step01_fastqc.sh <sa
 
 - Assumption: you have many fastq files in your `project/data` folder. 
 - Complete steps 1 and 2 as shown for Example 1.
-- Change to the logs folder
-```
-cd ${HOME}/project/logs
-```
-- Write a shell loop command to submit all of your fastq files (notice
+- Here's a shell loop command to submit all of your fastq files (notice
 relative path to the data folder)
+
 ```
+# change to the log directory
+cd ${HOME}/project/logs
+
+# loop through your gzipped fastq files
 for F in `find ../data –name \*.fastq.gz –print`; do
   S=$(basename $F | sed 's/\.fastq\.gz$//')
   qsub –q b.q –cwd –j y ../sge/step01_fastqc.sh $S
 done
 ```
-- Note: qsub limit is 500 jobs. For larger numbers use array jobs.
+
+Note: qsub limit is 500 jobs. For larger numbers use array jobs.
 
 # SGE: Checking the status of jobs
 
@@ -229,13 +226,17 @@ qstat –u ‘\*’
 
 # SGE: To delete a job
 
-- Use qdel to delete a job
-- Requires job-ID from qstat
-```
-qdel 37788
-```
+- Use `qdel` to delete a job
+- `qdel` takes the job-ID from qstat
 
-- Of course, you can only delete your jobs.
+Example:
+```
+# usage: qdel <job Id>
+qdel 37788
+
+```
+Of course, you can only delete your jobs.
+
 ```
 qdel 37788
 vpatel - you do not have the necessary privileges to delete the job
