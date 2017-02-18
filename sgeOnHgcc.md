@@ -131,34 +131,34 @@ ${HOME}/project/sge
 module load FastQC
 
 # set directory variable names
-PRJDIR=“\${HOME}/project”
-DATADIR=“\${PRJDIR}/data”
-OUTDIR=“\${PRJDIR}/output/FastQC”
+PRJDIR=“${HOME}/project”
+DATADIR=“${PRJDIR}/data”
+OUTDIR=“${PRJDIR}/output/FastQC”
 
 # create a unique folder on the local compute drive
 if [ -e /bin/mktemp ]; then
-  TMPDIR=`/bin/mktemp –d /scratch/XXXXXX\`
+  TMPDIR=`/bin/mktemp -d -p /scratch/` || exit
 elif [ -e /usr/bin/mktemp ]; then
-  TMPDIR=\`/usr/bin/mktemp –d /scratch/XXXXXX\`
+  TMPDIR=`/usr/bin/mktemp -d –p /scratch/` || exit
 else
-  echo “Error. Cannot find program to create tmp directory”
+  echo “Error. Cannot find mktemp to create tmp directory”
   exit
 fi
 
 # copy on the data
-cp \${DATADIR}/\$1.fastq.gz \${TMPDIR}
+cp ${DATADIR}/$1.fastq.gz ${TMPDIR}
 
 # run fastqc on the data
-fastqc –o \${TMPDIR} --no-extract \${TMPDIR}/\$1.fastq.gz
+fastqc –o ${TMPDIR} --no-extract ${TMPDIR}/$1.fastq.gz
 
 # remove the original fastq file
-/bin/rm \${TMPDIR}/\$1.fastq.gz
+/bin/rm ${TMPDIR}/$1.fastq.gz
 
 # copy your local data to your user directory
-rsync –av \${TMPDIR}/ \${OUTDIR}/\$1
+rsync –av ${TMPDIR}/ ${OUTDIR}/$1
 
 # remove the temp directory
-/bin/rm –fr \${TMPDIR}
+/bin/rm –rf ${TMPDIR}
 
 # unload the FastQC module
 module unload FastQC
