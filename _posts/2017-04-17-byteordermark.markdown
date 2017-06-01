@@ -7,7 +7,7 @@ date: "2017-04-17 22:27:03 -0400"
 When decoding text, particularly when it came by way of Excel, you are likely
 to encounter `\x{FEFF}` appended to the first piece of text or another escaped
 character. This is a [Byte Order Mark](https://en.wikipedia.org/wiki/Byte_order_mark),
-and it's purpose is to indicate something about the encoding of the text 
+and its purpose is to indicate something about the encoding of the text 
 stream, usually that it's UTF-8 or something like that. 
 
 To remove it, try one of the following, originally from [here](http://stackoverflow.com/questions/24390034)).
