@@ -4,58 +4,178 @@ title: People
 permalink: /people/
 ---
 
-## **Current Members**
+## Principal Investigators
 
-### Thomas Wingo, M.D.
+### Aliza P. Wingo, M.D., M.Sc.
+\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/46681817/?sort=date&direction=descending)\]
 
-I am an Assistant Professor of [Neurology](http://www.neurology.emory.edu/) and [Human Genetics](http://genetics.emory.edu/) at [Emory University](http://www.emory.edu/). I am an Atlanta Veterans Administration investigator whose research laboratory is primarily based at the [Center for Neurodegenerative Disease](http://cnd.emory.edu/) in the Whitehead building on Emory's main campus.
+Dr. Wingo is an Assistant Professor of
+[Psychiatry](https://www.psychiatry.emory.edu/) at
+[Emory University](https://www.emory.edu/) and Physician-Scientist at the
+[Atlanta Veterans Administration Medical Center](https://www.atlanta.va.gov/).
+She received her Medical Degree and a Master of Science in Clinical Research
+from Emory University where she also completed her residency training in
+Psychiatry. During her career development award, Dr. Wingo acquired advanced
+statistical and bioinformatic skills for association mapping of complex
+phenotypes using genome-wide genotyping, transcriptomes, and microRNA profiles.
 
-I have post-doctoral training in genetics, next-generation sequencing, and bioinformatics with [David Cutler](http://genetics.emory.edu/faculty/faculty.php?facultyid=541). I code in C and Perl, mostly.
+### Thomas S. Wingo, M.D.
 
-I am a board certified neurologist with additional training in cognitive neurology and see patients at the Atlanta VA Memory Clinic.
+\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/40147794/public/?sort=date&direction=descending)\] \[[Google Scholar](https://scholar.google.com/citations?user=kJYqCEsAAAAJ&hl=en&oi=ao)\] \[[GitHub](https://github.com/wingolab/)\]
 
-### Se Min (Minnie) Heo, B.S.
+Dr. Wingo is an Assistant Professor of
+[Neurology](https://www.neurology.emory.edu/) and
+[Human Genetics](https://genetics.emory.edu/) at
+[Emory University](https://www.emory.edu/) and Physician-Scientist at the
+[Atlanta Veterans Administration Medical Center](https://www.atlanta.va.gov/).
+His primary lab is at the
+[Center for Neurodegenerative Disease](https://cnd.emory.edu/) in the Whitehead
+building on Emory's main campus. He has post-doctoral training in statistical
+genetics, next-generation sequencing, and bioinformatics with
+[David Cutler](https://genetics.emory.edu/faculty/faculty.php?facultyid=541).
+He is a board certified neurologist with fellowship training in cognitive
+neurology and see patients at the Atlanta VAMC Cognitive Center of Excellence.
 
-Place holder text.
+
+## **Graduate Students**
+
+### Ha Eun Kong, B.S.
+
+Ms. Kong is jointly mentored by Drs. Thomas Wingo and Peng Jin. The focus of
+her work is to identify new genetic modifiers of Fragile X Tremor Ataxia
+Syndrome and causes of Alzheimer's disase.
+
+## **Staff**
+
+### Melissa Armendariz, B.S.
+
+Ms. Armendariz is a research coordinator who joined the Wingo lab in 2016. She
+collects, synthesizes, and manages clinical and genetic data to identify new
+genetic causes of Alzheimer's disease.
+
+### Se Min (Minnie) Canon, B.S.
+
+Ms. Canon first volunteered as an undergraduate at Emory University and went on
+to do a senior project on the genetic causes of an early-onset Alzheimer's
+Disease case in a family from Columbia. After graduation she joined the lab as
+a research technician in 2014 and continues to work on family-based genetic
+studies of Alzheimer's disease.
 
 ### Zoe White, B.S.
 
-Place holder text.
+Ms. White is a senior research technician who joined the Wingo Lab in 2012. She
+performs targetted capture and next-generation sequencing experiments to identify
+new genetic causes of Alzheimer's Disease.
 
 ## **Collaborators**
 
-This is a list of our current collaborators. Just your average collection of geneticist, molecular biologists, neuroscientists, and cognitive neurologists studying neurodegenerative disease together.
+### [David Cutler, Ph.D.](https://genetics.emory.edu/faculty/faculty.php?facultyid=541)
+\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/pubmed/?term=cutler+DJ%5BAuthor%5D+OR+cutler+DJ%5BInvestigator%5D)\]
 
-### [David Cutler, Ph.D.](http://genetics.emory.edu/faculty/faculty.php?facultyid=541)
+Dr. Cutler is a population and statistical geneticist, talented programmer,
+and collaborates with us on family- and population-based studies of Alzheimer's
+disease. His own work focuses on mapping, base-calling, and deep thinking about
+the problems of next-generation sequencing and statistical genetics.
 
-Dave is a population and statistical geneticist, programmer, and happy to help us understand the genetic basis of neurodegenerative illness. He does a lot of work mapping, base-calling, and thinking deeply about the problems of next-generation sequencing.
+### [David Bennett, M.D.](https://www.rushu.rush.edu/faculty/david-bennett-md)
+\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/40704410/?sort=date&direction=descending)\]
 
-### [Peng Jin, Ph.D.](http://genetics.emory.edu/faculty/faculty.php?facultyid=124)
+Dr. Bennett is the Director of the Rush Alzheimer’s Disease Core Center and
+Principal Investigator of the Rush Memory and Aging Project. Dr. Bennett has
+been an instrumental collaborator on our R01 and VA Merit grant applications.
 
-Peng is a geneticist interested in trinucleotide repeat disorders, microRNA, and methylation and epigenetic changes as they related to neurodegenerative illnesses. He is particularly interested in Fragile-X associated tremor-ataxia syndrome and G4C2 expanded repeats in C9Orf72 implicated in amyotrophic lateral sclerosis and frontotemporal dementia. 
+### [Patricia Boyle, Ph.D.](https://www.rushu.rush.edu/faculty/patricia-boyle-phd)
+\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/40700873/?sort=date&direction=descending)\]
 
-### [James Lah, M.D., Ph.D.](http://neurology.emory.edu/faculty/cognitive/lah_james.html)
+Dr. Boyle is a neuropsychologist with the Rush Alzheimer’s Disease Center and
+professor in the Department of Behavioral Sciences. Her primary interest is
+the prevention of age-related cognitive and functional decline and dementia.
+Dr. Boyle is a collaborator on our R01 and Merit grants.
 
-Jim is a cognitive neurologist, molecular biologist, and neuroscientist interested in RNA splicing and using proteomics to understand the pathogenesis of Alzheimer's disease. We work together on EOAD and proteomics projects.
+### [Greg Gibson, Ph.D.](https://gibsongatech.wordpress.com/)
+\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/45886246/?sort=date&direction=descending)\]
 
-### [Allan I. Levey, M.D., Ph.D.](http://neurology.emory.edu/faculty/cognitive/levey_allan.html)
+Dr. Gibson is a Professor in the School of Biology at Georgia Tech. He obtained
+his PhD in genetics at the University of Basel and completed a Post-Doc training
+at Stanford. Dr. Gibson's research focuses on how transcriptome profiling can be
+used to understand more about the genetic basis of complex traits and disease
+susceptibility. Dr. Gibson collaborates with Dr. Aliza Wingo on her various
+projects.
 
-Allan is a cognitive neurologist, neuroscientist/neuroanatomist, and many things to many people, but he collaborates with us on EOAD and proteomic projects using human brain tissue.
+### [Peng Jin, Ph.D.](https://genetics.emory.edu/faculty/faculty.php?facultyid=124)
+\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/40929012/?sort=date&direction=descending)\]
 
-### [Chadwick Hales, M.D., Ph.D.](http://neurology.emory.edu/faculty/cognitive/hales_chadwick.html)
+Dr. Jin is a geneticist interested in trinucleotide repeat disorders, microRNA,
+and methylation and epigenetic changes as they related to neurodegenerative
+illnesses. He is particularly interested in Fragile-X associated tremor-ataxia
+syndrome and G4C2 expanded repeats in C9Orf72 implicated in amyotrophic lateral
+sclerosis and frontotemporal dementia.
 
-Chad is another neurocognitive neurologist, neuroscientist, molecular biologist, and electrophsyiologist. We work together on projects to understand pathological accumulation of proteins in the brain and understand how they relate to neurodegenerative diseases, particularly Alzheimer's disease. In his spare time he remodels kitchens.
+### [James Lah, M.D., Ph.D.](https://neurology.emory.edu/faculty/cognitive/lah_james.html)
+\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/9513763/?sort=date&direction=descending)\]
 
-### [Nicholas Seyfried, DPhil.](http://proteox.genetics.emory.edu/emory/people.html)
+Dr. Lah is a cognitive neurologist, molecular biologist, and neuroscientist
+interested in RNA splicing and using proteomics to understand the pathogenesis
+of Alzheimer's disease. He collaborates on Early-onset Alzheimer's Disease and
+proteomics projects.
 
-Nick is a biochemist and knows about as much as anyone should about mass spectrometry (at least from our perspective). We work closely with him and Duc Duoung developing our proteogenomic project.
+### [Allan I. Levey, M.D., Ph.D.](https://neurology.emory.edu/faculty/cognitive/levey_allan.html)
+\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/41138971/?sort=date&direction=descending)\]
 
-### [Michael Zwick, Ph.D.](http://genetics.emory.edu/faculty/faculty.php?facultyid=411)
+Dr. Levey is a cognitive neurologist, neuroscientist/neuroanatomist. He
+collaborates with on family-based studies of late-onset Alzheimer's disease,
+early-onset Alzheimer's Disease and proteomic projects.
 
-Mike is a population geneticist and shares our interest in using next-generation sequencing to find new genetic targets of human disease.
+### [Benjamin Logsdon, Ph.D.](https://www.synapse.org/#!Profile:274008)
+\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/51097519/?sort=date&direction=descending)\]
+
+Dr. Logsdon received his PhD in Computational Biology at Cornell University
+and post-doctoral training in statistical genetics and genome sciences at the
+Fred Hutchinson Cancer Research Center and University of Washington. Dr. Logsdon
+is a senior scientist at [Sage Bionetworks](https://sagebase.org/).
+
+### [Chadwick Hales, M.D., Ph.D.](https://neurology.emory.edu/faculty/cognitive/hales_chadwick.html)
+\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/40511134/?sort=date&direction=descending)\]
+
+Dr. Hales is a neurocognitive neurologist, neuroscientist, molecular biologist,
+and electrophsyiologist. His major focus is to understand pathological
+accumulation of proteins in traumatic brain injury and neurodegenerative disease.
+
+### [Kerry Ressler, M.D., Ph.D.](https://www.mcleanhospital.org/biography/kerry-ressler)
+\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/41158960/?sort=date&direction=descending)\]
+
+Dr. Ressler is chief scientific officer and James and Patricia Poitras Chair
+in Psychiatry at McLean Hospital. Dr. Ressler’s lab focuses on translational
+research bridging molecular neurobiology in animal models with human genetic
+research on emotion, particularly fear and anxiety disorders. Dr. Ressler has
+been mentor for Dr. Aliza Wingo on her career development award and continues
+to collaborate with her on different projects.
+
+### [Nicholas Seyfried, DPhil.](https://proteox.genetics.emory.edu/emory/people.html)
+\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/47321017/?sort=date&direction=descending)\]
+
+Dr. Seyfried is a biochemist and proteomics expert. He and Dr. T. Wingo lead a
+project that focuses on understanding genes identified in Alzheimer's Disease
+genome-wide association studies may contribute to pathologic accumulation of
+aggregated proteins
+([NIH Reporter](https://projectreporter.nih.gov/project_info_description.cfm?aid=9280749&icde=0)).
 
 ## **Alumni**
 
-### Eleanor A. Sharp
+### Eleanor A. Sharp, B.S.
 
-Ellie examined patterns of Inheritance among families with young-onset AD as part of Emory's [SURE program](http://www.cse.emory.edu/projects/students/sure.html) in the summer of 2012. She is currently a medical student at the University of Virginia School of Medicine.
+Ms. Sharp examined patterns of Inheritance among families with Early-onset
+Alzheimer's Disease with Dr. Wingo as a student in the
+[SURE program](https://www.cse.emory.edu/projects/students/sure.html) in 2012.
+She is currently a medical student at the University of Virginia School of
+Medicine.
+
+### Stephanie Stennett, M.A.
+Ms. Stennett joined the Wingo Lab in 2013 as a research coordinator and led
+Dr. Aliza Wingo's Genome-wide Association Study of Resilience before she moved
+to Texas to work for a private company.
+
+### Brittney Innocente, B.A.
+Ms. Innocente joined the Wingo Lab in 2015 as a research coordinator and led
+Dr. Aliza Wingo's Genome-wide Association Study of Resilience until its
+completion in 2016.
