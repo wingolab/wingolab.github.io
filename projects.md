@@ -5,7 +5,8 @@ permalink: /Projects/
 ---
 
 The goal of our lab is to find and fight the causes of Alzheimer's disease and
-illuminate the genetic underpinnings of psychological well-being.
+illuminate the genetic underpinnings of psychological well-being and
+psychological resilience.
 
 ### Understanding the molecular mechanisms behind how psychological well-being and depression modify AD risk
 Psychological well-being (PWB) and depression are important factors that modify

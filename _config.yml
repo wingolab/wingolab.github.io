@@ -3,8 +3,8 @@
 title: Wingo Lab
 #email: wingolab@emory.edu
 description: > # this means to ignore newlines until "baseurl:"
-  A genetics laboratory dedicated to finding and fighting the causes of Alzheimer's disease
-  and related neurodegenerative illnesses at the Atlanta Veterans Administration and Emory
+  A genetics laboratory dedicated to finding and fighting the causes of
+  Alzheimer's disease at the Atlanta Veterans Administration and Emory
   University's Center for Neurodegenerative Disease.
 
 baseurl: "" # the subpath of your site, e.g. /blog/

@@ -1,6 +1,6 @@
 ---
-layout: Publications
-title: Data
+layout: page
+title: Publications
 permalink: /publications/
 ---
 
