@@ -49,23 +49,24 @@ disease.
 
 ### Melissa Armendariz, B.S.
 
-Ms. Armendariz is a research coordinator who joined the Wingo lab in 2016. She
-collects, synthesizes, and manages clinical and genetic data to identify new
-genetic causes of Alzheimer's disease.
+Ms. Armendariz graduated from Virginia Tech with a B.S. in Biochemistry and a minor in Chemistry and Psychology. 
+She is a research coordinator who joined the Wingo lab in 2016. She collects, synthesizes, and manages clinical 
+and genetic data to identify new genetic causes of Alzheimer’s disease.
 
 ### Se Min (Minnie) Canon, B.S.
 
-Ms. Canon first volunteered as an undergraduate at Emory University and went on
-to do a senior project on the genetic causes of an early-onset Alzheimer's
-Disease case in a family from Columbia. After graduation she joined the lab as
-a research technician in 2014 and continues to work on family-based genetic
-studies of Alzheimer's disease.
+Minnie first joined the Wingo Lab as an Undergraduate Research Assistant in Fall of 2012. 
+She went on to do a Senior Project on the genetic causes of an early-onset Alzheimer's disease case 
+in a family from Colombia. After graduating from Emory University (B.S. in Neuroscience and Behavioral Biology), 
+she joined the lab as a Research Specialist in 2014. She continues to work on family-based genetic studies 
+of Alzheimer's disease
 
-### Zoe White, B.S.
-
-Ms. White is a senior research technician who joined the Wingo Lab in 2012. She
-performs targetted capture and next-generation sequencing experiments to identify
-new genetic causes of Alzheimer's Disease.
+### Maohua Xie, PhD
+Dr. Xie received his Master Degree in Analytics at Georgia State University and PhD in Biochemistry and Molecular Biology at 
+wuhan University, China. Previoulsy he worked as a Cancer researcher and published over 15 research articles in journals 
+including Cancer Cell, and Nature Communications. After he obtained his Analytics degree, he joined the Wingo lab and 
+worked as a Bioinformatician. He is working on using genomic and proteomic (i.e., proteogenomic) 
+approaches to identify novel genetic variants related to AD.
 
 ## **Collaborators**
 
@@ -158,6 +159,14 @@ genome-wide association studies may contribute to pathologic accumulation of
 aggregated proteins
 ([NIH Reporter](https://projectreporter.nih.gov/project_info_description.cfm?aid=9280749&icde=0)).
 
+### [Jingjing Yang, Ph.D.](https://genetics.emory.edu/faculty/primary/yang-jingjing.html)
+
+Dr. Yang is an assistant professor of the Center for Computational and Quantitative 
+Genetics affiliated with the Department of Human Genetics, Emory University School of Medicine.
+Dr. Yang is a statistical geneticist mainly working on developing statistical and computational 
+methods for mapping complex traits and diseases, particularly focusing on integrative analysis 
+of multi-level OMICS data. 
+
 ## **Alumni**
 
 ### Eleanor A. Sharp, B.S.
@@ -177,3 +186,9 @@ to Texas to work for a private company.
 Ms. Innocente joined the Wingo Lab in 2015 as a research coordinator and led
 Dr. Aliza Wingo's Genome-wide Association Study of Resilience until its
 completion in 2016.
+
+### Zoe White, B.S.
+Ms. White is a senior research technician who joined the Wingo Lab in 2012. She
+performs targetted capture and next-generation sequencing experiments to identify
+new genetic causes of Alzheimer's Disease.
+

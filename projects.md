@@ -53,3 +53,21 @@ that result from genetic sequence variants that cause a change the primary amino
 acid sequence. This gives us the ability to directly test whether variant
 containing proteins are more or less abundant or aggregation prone in carriers
 versus non-carriers and determine whether that contributes to AD risk.
+
+### Elucidating molecular mechanisms of psychological well-being
+
+Psychological well-being (PWB) is a multidimensional construct that encompasses positive emotion, life satisfaction, 
+and sense of purpose and meaning in life, and is more than the absence of negative emotional states. 
+Many prospective longitudinal studies have shown that PWB is associated with better mental and physical health 
+after adjusting for negative emotion and other relevant confounding factors. Indeed, PWB mitigates risks 
+of having suicide ideation, depression, substance abuse, post-traumatic stress disorder, Alzheimer’s dementia, 
+heart disease, diabetes, and reduces all-cause mortality. In this project we will investigate molecular mechanisms
+that underlie individual differences in PWB using human post-mortem brain multi-omic data.
+
+### Transgenerational effects of maternal stressors: Investigating the role of infant gene expression
+
+Several prospective, longitudinal, mother-child cohort studies have found that children exposed to maternal
+psychological stress, depression, or anxiety during the prenatal period have higher risk for behavioral 
+and emotional problems later in life, including increased fearfulness, anxiety, and depression. 
+We will investigate molecular mechanisms underlying this association in collaboration with investigators 
+at University of Cape Town in South Africa and at McLean Hospital.
