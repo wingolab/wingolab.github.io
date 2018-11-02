@@ -49,23 +49,23 @@ disease.
 
 ### Melissa Armendariz, B.S.
 
-Ms. Armendariz graduated from Virginia Tech with a B.S. in Biochemistry and a minor in Chemistry and Psychology. 
-She is a research coordinator who joined the Wingo lab in 2016. She collects, synthesizes, and manages clinical 
+Ms. Armendariz graduated from Virginia Tech with a B.S. in Biochemistry and a minor in Chemistry and Psychology.
+She is a research coordinator who joined the Wingo lab in 2016. She collects, synthesizes, and manages clinical
 and genetic data to identify new genetic causes of Alzheimer’s disease.
 
 ### Se Min (Minnie) Canon, B.S.
 
-Minnie first joined the Wingo Lab as an Undergraduate Research Assistant in Fall of 2012. 
-She went on to do a Senior Project on the genetic causes of an early-onset Alzheimer's disease case 
-in a family from Colombia. After graduating from Emory University (B.S. in Neuroscience and Behavioral Biology), 
-she joined the lab as a Research Specialist in 2014. She continues to work on family-based genetic studies 
+Minnie first joined the Wingo Lab as an Undergraduate Research Assistant in Fall of 2012.
+She went on to do a Senior Project on the genetic causes of an early-onset Alzheimer's disease case
+in a family from Colombia. After graduating from Emory University (B.S. in Neuroscience and Behavioral Biology),
+she joined the lab as a Research Specialist in 2014. She continues to work on family-based genetic studies
 of Alzheimer's disease
 
 ### Maohua Xie, PhD
-Dr. Xie received his Master Degree in Analytics at Georgia State University and PhD in Biochemistry and Molecular Biology at 
-wuhan University, China. Previoulsy he worked as a Cancer researcher and published over 15 research articles in journals 
-including Cancer Cell, and Nature Communications. After he obtained his Analytics degree, he joined the Wingo lab and 
-worked as a Bioinformatician. He is working on using genomic and proteomic (i.e., proteogenomic) 
+Dr. Xie received his Master Degree in Analytics at Georgia State University and PhD in Biochemistry and Molecular Biology at
+Wuhan University, China. Previously he worked as a Cancer researcher and published over 15 research articles in journals
+including Cancer Cell, and Nature Communications. After he obtained his Analytics degree, he joined the Wingo lab and
+worked as a Bioinformatician. He is working on using genomic and proteomic (i.e., proteogenomic)
 approaches to identify novel genetic variants related to AD.
 
 ## **Collaborators**
@@ -105,7 +105,7 @@ susceptibility.
 \[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/40511134/?sort=date&direction=descending)\]
 
 Dr. Hales is a neurocognitive neurologist, neuroscientist, molecular biologist,
-and electrophsyiologist. His major focus is to understand pathological
+and electrophysiologist. His major focus is to understand pathological
 accumulation of proteins in traumatic brain injury and neurodegenerative disease.
 
 ### [Peng Jin, Ph.D.](http://genetics.emory.edu/faculty/faculty.php?facultyid=124)
@@ -161,11 +161,11 @@ aggregated proteins
 
 ### [Jingjing Yang, Ph.D.](https://genetics.emory.edu/faculty/primary/yang-jingjing.html)
 
-Dr. Yang is an assistant professor of the Center for Computational and Quantitative 
+Dr. Yang is an assistant professor of the Center for Computational and Quantitative
 Genetics affiliated with the Department of Human Genetics, Emory University School of Medicine.
-Dr. Yang is a statistical geneticist mainly working on developing statistical and computational 
-methods for mapping complex traits and diseases, particularly focusing on integrative analysis 
-of multi-level OMICS data. 
+Dr. Yang is a statistical geneticist mainly working on developing statistical and computational
+methods for mapping complex traits and diseases, particularly focusing on integrative analysis
+of multi-level OMICS data.
 
 ## **Alumni**
 
@@ -189,6 +189,5 @@ completion in 2016.
 
 ### Zoe White, B.S.
 Ms. White is a senior research technician who joined the Wingo Lab in 2012. She
-performs targetted capture and next-generation sequencing experiments to identify
+performs targeted capture and next-generation sequencing experiments to identify
 new genetic causes of Alzheimer's Disease.
-
