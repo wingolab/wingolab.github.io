@@ -4,7 +4,7 @@ title: People
 permalink: /people/
 ---
 
-## Principal Investigators
+## **Principal Investigators**
 
 ### Aliza P. Wingo, M.D., M.Sc.
 \[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/46681817/?sort=date&direction=descending)\]
@@ -35,16 +35,7 @@ neurology and see patients at the Atlanta VAMC Cognitive Center of Excellence.
 Dr. Wingo is a member of the [Population Biology Evolution and Ecology Graduate Program](http://www.biomed.emory.edu/PROGRAM_SITES/PBEE/index.html)
 at Emory University.
 
-## **Graduate Students**
-
-### Ha Eun Kong, B.S.
-Ms. Kong is an M.D./Ph.D. student in [Genetics and Molecular Biology Graduate Program](http://www.biomed.emory.edu/PROGRAM_SITES/GMB/index.html) who co-mentored
-by Drs. Peng Jin and Thomas Wingo. The focus of her work is to identify new
-genetic modifiers of Fragile X Tremor Ataxia Syndrome and causes of Alzheimer's
-disease.
-
-### Chloe Robins, PhD.
-Dr. Robins received her PhD from the Population Biology, Ecology, and Evolution Graduate Program at Emory University. Her doctoral work used statistical genetic methods to investigate the evolutionary basis of human aging. She joined the Wingo Lab after graduation, and is now working on identifying epigenetic and proteomic changes associated with Alzheimer’s Disease.
+## **Research Staff**
 
 ### Wen Fan, MS.
 Wen graduated from Duke University with a Master degree in biostatistics and received her B.S. degree in plant genetics at University of Florida. Wen has a diverse background in bioinformatics and biostatistics. Her research work at Duke included: 1) meta-analysis in lung cancer clinical trials; 2) longitudinal data analysis; and 3) time series data analysis. Wen joins the Wingo lab in 2018 as a biostatistician.
@@ -53,9 +44,7 @@ Wen graduated from Duke University with a Master degree in biostatistics and rec
 Dr. Gerasimov earned her doctoral degree in computer science at Georgia State University. She has comprehensive experience in bioinformatics and computational genomics and algorithms. Her general research interest at GSU was designing and applying advanced algorithms and statistical tools for analysis of next-generation sequencing data related to cancer and infection diseases. Dr. Gerasimov joined the Wingo lab in 2018 as an Assistant Scientist.
 
 ### Adriana Lori, PhD.
-Dr. Lori received her Ph.D. in Genetic Sciences at the University of Pisa (Italy). Her dissertation focused on identifying chromosomal damages in children exposed to Chernobyl fallout to estimate long-term effects of radiation to the genome. Dr Lori’s current research involves the role of genetic and epigenetic mechanisms in the development of stress-related disorders and social behaviors. Dr. Lori has been one of the primary genetic investigators of the Grady Trauma Project involved in molecular and bioinformatics analyses of sequence variants, GWAS and whole genome sequencing. Dr. Lori joins the Wingo lab in November 2018 as a Research Associate.
-
-## **Staff**
+Dr. Lori received her Ph.D. in Genetic Sciences at the University of Pisa (Italy). Her dissertation focused on identifying chromosomal damages in children exposed to Chernobyl fallout to estimate long-term effects of radiation to the genome. Dr. Lori’s current research involves the role of genetic and epigenetic mechanisms in the development of stress-related disorders and social behaviors. Dr. Lori has been one of the primary genetic investigators of the Grady Trauma Project involved in molecular and bioinformatics analyses of sequence variants, GWAS and whole genome sequencing. Dr. Lori joins the Wingo lab in November 2018 as a Research Associate.
 
 ### Melissa Armendariz, B.S.
 Ms. Armendariz graduated from Virginia Tech with a B.S. in Biochemistry and a minor in Chemistry and Psychology.
@@ -68,6 +57,19 @@ She went on to do a Senior Project on the genetic causes of an early-onset Alzhe
 in a family from Colombia. After graduating from Emory University (B.S. in Neuroscience and Behavioral Biology),
 she joined the lab as a Research Specialist in 2014. She continues to work on family-based genetic studies
 of Alzheimer's disease
+
+## **Post-Doctoral Fellows**
+
+### Chloe Robins, PhD.
+Dr. Robins received her PhD from the Population Biology, Ecology, and Evolution Graduate Program at Emory University. Her doctoral work used statistical genetic methods to investigate the evolutionary basis of human aging. She joined the Wingo Lab after graduation, and is now working on identifying epigenetic and proteomic changes associated with Alzheimer’s Disease.
+
+## **Graduate Students**
+
+### Ha Eun Kong, B.S.
+Ms. Kong is an M.D./Ph.D. student in [Genetics and Molecular Biology Graduate Program](http://www.biomed.emory.edu/PROGRAM_SITES/GMB/index.html) who co-mentored
+by Drs. Peng Jin and Thomas Wingo. The focus of her work is to identify new
+genetic modifiers of Fragile X Tremor Ataxia Syndrome and causes of Alzheimer's
+disease.
 
 ## **Collaborators**
 
