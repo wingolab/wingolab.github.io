@@ -63,12 +63,13 @@ of Alzheimer's disease
 ### Chloe Robins, PhD.
 Dr. Robins received her PhD from the Population Biology, Ecology, and Evolution Graduate Program at Emory University. Her doctoral work used statistical genetic methods to investigate the evolutionary basis of human aging. She joined the Wingo Lab after graduation, and is now working on identifying epigenetic and proteomic changes associated with Alzheimer’s Disease.
 
+### Alex Kotlar, PhD
+Dr. Kotlar received his Ph.D. in Genetics at Emory University in 2018. His work was the development of online services (such as [https://bystro.io](https://bystro.io)) that assisted researchers in analyzing terabytes of genomic data, decreasing analysis times by an order of magnitude. He joined the Wingo Lab to develop next-generation online proteomics services
+
 ## **Graduate Students**
 
 ### Ha Eun Kong, B.S.
-Ms. Kong is an M.D./Ph.D. student in [Genetics and Molecular Biology Graduate Program](http://www.biomed.emory.edu/PROGRAM_SITES/GMB/index.html) who co-mentored
-by Drs. Peng Jin and Thomas Wingo. The focus of her work is to identify new
-genetic modifiers of Fragile X Tremor Ataxia Syndrome and causes of Alzheimer's
+Ms. Kong is an M.D./Ph.D. student in [Genetics and Molecular Biology Graduate Program](http://www.biomed.emory.edu/PROGRAM_SITES/GMB/index.html) who co-mentored by Drs. Peng Jin and Thomas Wingo. The focus of her work is to identify new genetic modifiers of Fragile X Tremor Ataxia Syndrome and causes of Alzheimer's
 disease.
 
 ## **Collaborators**
