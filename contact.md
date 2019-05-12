@@ -6,8 +6,7 @@ permalink: /Contacts/
 
 The [Emory Directory](http://directory.service.emory.edu/index.cfm) has our 
 most recent email and phone contact information. Please direct all clinic 
-inquries for the Atlanta VAMC Cognitive Center of Excellence to 
-404.321.6111 x2383.
+inquries to 404-778-3444.
 
 ### Wingo Research Lab (Atlanta VAMC)
 
@@ -18,8 +17,8 @@ inquries for the Atlanta VAMC Cognitive Center of Excellence to
     
 ### Wingo Research Lab (Emory University)
 
-    ATTN: Zoe White / Wingo Lab
-    565 Whitehead Building
+    ATTN: Se Min (Minnie) Cannon / Wingo Lab
+    565-2 Whitehead Building
     615 Michael Street NE
     Atlanta, GA 30322-1047
     Phone: 404-727-1508
