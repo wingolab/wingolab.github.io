@@ -7,7 +7,7 @@ permalink: /people/
 ## **Principal Investigators**
 
 ### Aliza P. Wingo, M.D., M.Sc.
-\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/46681817/?sort=date&direction=descending)\]
+\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/1l9uz9whqykkE/bibliography/public/)\] \[[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=wingo+a%3F%5Bauthor%5D+or+wingo+ap%5Bauthor%5D)\]
 
 Dr. Wingo is an Assistant Professor of
 [Psychiatry](http://www.psychiatry.emory.edu/) at
@@ -20,51 +20,41 @@ statistical and bioinformatic skills for association mapping of complex
 phenotypes using genome-wide genotyping, transcriptomes, and microRNA profiles.
 
 ### Thomas S. Wingo, M.D.
-\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/40147794/public/?sort=date&direction=descending)\] \[[Google Scholar](https://scholar.google.com/citations?user=kJYqCEsAAAAJ&hl=en&oi=ao)\] \[[GitHub](https://github.com/wingolab/)\]
+\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/thomas.wingo.1/bibliography/public/)\] \[[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=wingo+ts%5Bauthor%5D+or+wingo+t%3F%5Bauthor%5D)\] \[[Google Scholar](https://scholar.google.com/citations?user=kJYqCEsAAAAJ&hl=en&oi=ao)\] \[[GitHub](https://github.com/wingolab/)\]
 
 Dr. Wingo is an Assistant Professor of
 [Neurology](http://www.neurology.emory.edu/) and
 [Human Genetics](http://genetics.emory.edu/) at
-[Emory University](https://www.emory.edu/) and Physician-Scientist at the
-[Atlanta Veterans Administration Medical Center](https://www.atlanta.va.gov/).
+[Emory University](https://www.emory.edu/).
 His primary lab is at the
 [Center for Neurodegenerative Disease](http://cnd.emory.edu/) in the Whitehead
 building on Emory's main campus. He has post-doctoral training in statistical
 genetics, next-generation sequencing, and bioinformatics. He is a board certified neurologist with fellowship training in cognitive
-neurology and see patients at the Atlanta VAMC Cognitive Center of Excellence.
-Dr. Wingo is a member of the [Population Biology Evolution and Ecology Graduate Program](http://www.biomed.emory.edu/PROGRAM_SITES/PBEE/index.html)
+neurology. Dr. Wingo is a member of the [Population Biology Evolution and Ecology Graduate Program](http://www.biomed.emory.edu/PROGRAM_SITES/PBEE/index.html)
 at Emory University.
 
 ## **Research Staff**
 
+### Se Min (Minnie) Canon, B.S.
+Ms. Canon joined the Wingo Lab as an Undergraduate Research Assistant in Fall of 2012.
+She went on to do a Senior Project on the genetic causes of an early-onset Alzheimer's
+disease case in a family from Colombia. After graduating with a B.S. in Neuroscience
+and Behavioral Biology from Emory University. She joined the lab full-time in 2014, and
+is the Wingo Lab Manager.
+
 ### Wen Fan, MS.
-Wen graduated from Duke University with a Master degree in biostatistics and received her B.S. degree in plant genetics at University of Florida. Wen has a diverse background in bioinformatics and biostatistics. Her research work at Duke included: 1) meta-analysis in lung cancer clinical trials; 2) longitudinal data analysis; and 3) time series data analysis. Wen joins the Wingo lab in 2018 as a biostatistician.
+Ms. Fan graduated from Duke University with a Master degree in biostatistics and received her B.S. degree in plant genetics at University of Florida. Wen has a diverse background in bioinformatics and biostatistics. Her research work at Duke included: 1) meta-analysis in lung cancer clinical trials; 2) longitudinal data analysis; and 3) time series data analysis. Ms. Fan joined the Wingo lab in 2018 as a biostatistician.
 
 ### Ekaterina Gerasimov, PhD.
-Dr. Gerasimov earned her doctoral degree in computer science at Georgia State University. She has comprehensive experience in bioinformatics and computational genomics and algorithms. Her general research interest at GSU was designing and applying advanced algorithms and statistical tools for analysis of next-generation sequencing data related to cancer and infection diseases. Dr. Gerasimov joined the Wingo lab in 2018 as an Assistant Scientist.
+Dr. Gerasimov earned her doctoral degree in computer science at Georgia State University. She has comprehensive experience in bioinformatics and computational genomics and algorithms. Her general research interest at GSU was designing and applying advanced algorithms and statistical tools for analysis of next-generation sequencing data related to cancer and infection diseases. Dr. Gerasimov joined the Wingo lab in 2018 as an Assistant Bioinformatics Scientist.
 
 ### Adriana Lori, PhD.
-Dr. Lori received her Ph.D. in Genetic Sciences at the University of Pisa (Italy). Her dissertation focused on identifying chromosomal damages in children exposed to Chernobyl fallout to estimate long-term effects of radiation to the genome. Dr. Lori’s current research involves the role of genetic and epigenetic mechanisms in the development of stress-related disorders and social behaviors. Dr. Lori has been one of the primary genetic investigators of the Grady Trauma Project involved in molecular and bioinformatics analyses of sequence variants, GWAS and whole genome sequencing. Dr. Lori joins the Wingo lab in November 2018 as a Research Associate.
-
-### Melissa Armendariz, B.S.
-Ms. Armendariz graduated from Virginia Tech with a B.S. in Biochemistry and a minor in Chemistry and Psychology.
-She is a research coordinator who joined the Wingo lab in 2016. She collects, synthesizes, and manages clinical
-and genetic data to identify new genetic causes of Alzheimer’s disease.
-
-### Se Min (Minnie) Canon, B.S.
-Minnie first joined the Wingo Lab as an Undergraduate Research Assistant in Fall of 2012.
-She went on to do a Senior Project on the genetic causes of an early-onset Alzheimer's disease case
-in a family from Colombia. After graduating from Emory University (B.S. in Neuroscience and Behavioral Biology),
-she joined the lab as a Research Specialist in 2014. She continues to work on family-based genetic studies
-of Alzheimer's disease
+Dr. Lori received her Ph.D. in Genetic Sciences at the University of Pisa (Italy). Her dissertation focused on identifying chromosomal damages in children exposed to Chernobyl fallout to estimate long-term effects of radiation to the genome. Dr. Lori’s current research involves the role of genetic and epigenetic mechanisms in the development of stress-related disorders and social behaviors. Dr. Lori has been one of the primary genetic investigators of the Grady Trauma Project involved in molecular and bioinformatics analyses of sequence variants, GWAS and whole genome sequencing. Dr. Lori joined the Wingo lab in 2018 as a Research Associate.
 
 ## **Post-Doctoral Fellows**
 
 ### Chloe Robins, PhD.
 Dr. Robins received her PhD from the Population Biology, Ecology, and Evolution Graduate Program at Emory University. Her doctoral work used statistical genetic methods to investigate the evolutionary basis of human aging. She joined the Wingo Lab after graduation, and is now working on identifying epigenetic and proteomic changes associated with Alzheimer’s Disease.
-
-### Alex Kotlar, PhD
-Dr. Kotlar received his Ph.D. in Genetics at Emory University in 2018. His work was the development of online services (such as [https://bystro.io](https://bystro.io)) that assisted researchers in analyzing terabytes of genomic data, decreasing analysis times by an order of magnitude. He joined the Wingo Lab to develop next-generation online proteomics services
 
 ## **Graduate Students**
 
@@ -161,31 +151,45 @@ of multi-level OMICS data.
 
 ## **Alumni**
 
-### Maohua Xie, PhD
-Dr. Xie received his Master Degree in Analytics at Georgia State University and PhD in Biochemistry and Molecular Biology at
-Wuhan University, China. Previously he worked as a Cancer researcher and published over 15 research articles in journals
-including Cancer Cell, and Nature Communications. After he obtained his Analytics degree, he joined the Wingo lab and
-worked as a Bioinformatician. He is working on using genomic and proteomic (i.e., proteogenomic)
-approaches to identify novel genetic variants related to AD.
+### Melissa Armendariz, B.S.
+Ms. Armendariz graduated from Virginia Tech with a B.S. in Biochemistry and
+a minor in Chemistry and Psychology. She was a research coordinator for the
+Wingo lab from 2016-2019
+
+### Alex Kotlar, PhD
+Dr. Kotlar received his Ph.D. in Genetics at Emory University in 2018 where
+he was guided by Dr. Wingo in the development of online services (e.g.,
+[https://bystro.io](https://bystro.io)) that assisted researchers in analyzing
+terabytes of genomic data, decreasing analysis times by an order of magnitude.
+He briefly joined the Wingo Lab as a postdoctoral fellow working on next-generation
+online proteomics services. He is currently a [postdoctoral fellow](http://www.atgu.mgh.harvard.edu/people/1144/)
+at the Broad Institute of Harvard and MIT.
+
+### Brittney Innocente, B.A.
+Ms. Innocente was a research coordinator in 2015-2016 who led Dr. Aliza 
+Wingo's Genome-wide Association Study of Resilience until its completion
+in 2016.
 
 ### Eleanor A. Sharp, B.S.
 Ms. Sharp examined patterns of Inheritance among families with Early-onset
 Alzheimer's Disease with Dr. Wingo as a student in the
-[SURE program](http://college.emory.edu/undergraduate-research/index.html) in 2012.
-She is currently a medical student at the University of Virginia School of
-Medicine.
+[SURE program](http://college.emory.edu/undergraduate-research/index.html)
+in 2012. She is currently a medical student at the University of Virginia
+School of Medicine.
 
 ### Stephanie Stennett, M.A.
-Ms. Stennett joined the Wingo Lab in 2013 as a research coordinator and led
-Dr. Aliza Wingo's Genome-wide Association Study of Resilience before she moved
-to Texas to work for a private company.
-
-### Brittney Innocente, B.A.
-Ms. Innocente joined the Wingo Lab in 2015 as a research coordinator and led
-Dr. Aliza Wingo's Genome-wide Association Study of Resilience until its
-completion in 2016.
+Ms. Stennett was a research coordinator from 2012-2013 who led Dr. Aliza
+Wingo's Genome-wide Association Study of Resilience before she moved to
+Texas to work for a private company.
 
 ### Zoe White, B.S.
-Ms. White is a senior research technician who joined the Wingo Lab in 2012. She
-performs targeted capture and next-generation sequencing experiments to identify
+Ms. White was a senior research technician from 2012-2017. She performed
+targeted capture and next-generation sequencing experiments to identify
 new genetic causes of Alzheimer's Disease.
+
+### Maohua Xie, PhD
+Dr. Xie was a Bioinformatic Scientist from 2018-2019. He received his
+Master Degree in Analytics at Georgia State University and PhD in
+Biochemistry and Molecular Biology at Wuhan University, China. His work
+focused on proteogenomic approaches to identifing novel genetic variants
+related to AD.

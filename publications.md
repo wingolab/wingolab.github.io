@@ -5,10 +5,12 @@ permalink: /publications/
 ---
 
 #### Aliza P. Wingo, M.D., M.Sc.
-- [NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/46681817/?sort=date&direction=descending)
+- [NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/1l9uz9whqykkE/bibliography/public/)
+- [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=wingo+a%3F%5Bauthor%5D+or+wingo+ap%5Bauthor%5D)
 
 #### Thomas S. Wingo, M.D.
-- [NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/40147794/public/?sort=date&direction=descending)
+- [NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/thomas.wingo.1/bibliography/public/)
+- [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=wingo+ts%5Bauthor%5D+or+wingo+t%3F%5Bauthor%5D)
 - [Google Scholar](https://scholar.google.com/citations?user=kJYqCEsAAAAJ&hl=en&oi=ao)
 - [GitHub](https://github.com/wingolab/)
 
