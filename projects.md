@@ -54,6 +54,10 @@ acid sequence. This gives us the ability to directly test whether variant
 containing proteins are more or less abundant or aggregation prone in carriers
 versus non-carriers and determine whether that contributes to AD risk.
 
+### Accelerated aging and risk for Alzheimer’s disease in the Emory Healthy Brain and Emory Healthy Aging Studies
+
+Accelerated aging occurs when a person’s biological age (as estimated by epigenetic DNA modification) is greater than their chronological age. In this project, we will investigate if accelerated aging is associated with lower cognitive performance, higher rate of biomarker evidence for neurodegenerative disease, and higher genetic risk for Alzheimer’s disease. In addition, we will investigate whether accelerated aging is associated with mood (anxiety, depression), resilience, purpose-in-life, and local air quality.
+
 ### Elucidating molecular mechanisms of psychological well-being
 
 Psychological well-being (PWB) is a multidimensional construct that encompasses positive emotion, life satisfaction, 
