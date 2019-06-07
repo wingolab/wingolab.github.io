@@ -36,11 +36,7 @@ at Emory University.
 ## **Research Staff**
 
 ### Se Min (Minnie) Canon, B.S.
-Ms. Canon joined the Wingo Lab as an Undergraduate Research Assistant in Fall of 2012.
-She went on to do a Senior Project on the genetic causes of an early-onset Alzheimer's
-disease case in a family from Colombia. After graduating with a B.S. in Neuroscience
-and Behavioral Biology from Emory University. She joined the lab full-time in 2014, and
-is the Wingo Lab Manager.
+Ms. Canon joined the Wingo Lab as an Undergraduate Research Assistant in Fall of 2012.  She went on to do a Senior Project on the genetic causes of an early-onset Alzheimer's disease case in a family from Colombia. After graduating with a B.S. in Neuroscience and Behavioral Biology from Emory University. She joined the lab full-time in 2014, and is the Wingo Lab Manager.
 
 ### Wen Fan, MS.
 Ms. Fan graduated from Duke University with a Master degree in biostatistics and received her B.S. degree in plant genetics at University of Florida. Wen has a diverse background in bioinformatics and biostatistics. Her research work at Duke included: 1) meta-analysis in lung cancer clinical trials; 2) longitudinal data analysis; and 3) time series data analysis. Ms. Fan joined the Wingo lab in 2018 as a biostatistician.
@@ -50,6 +46,12 @@ Dr. Gerasimov earned her doctoral degree in computer science at Georgia State Un
 
 ### Adriana Lori, PhD.
 Dr. Lori received her Ph.D. in Genetic Sciences at the University of Pisa (Italy). Her dissertation focused on identifying chromosomal damages in children exposed to Chernobyl fallout to estimate long-term effects of radiation to the genome. Dr. Lori’s current research involves the role of genetic and epigenetic mechanisms in the development of stress-related disorders and social behaviors. Dr. Lori has been one of the primary genetic investigators of the Grady Trauma Project involved in molecular and bioinformatics analyses of sequence variants, GWAS and whole genome sequencing. Dr. Lori joined the Wingo lab in 2018 as a Research Associate.
+
+### Jacob Meigs, B.E.
+Jacob Meigs received his B.E. in Computer Engineering from the University of South Carolina. His diverse experience extends into web development, software development, and independent web consulting. He joined the Wingo lab in March 2019 and assists in developing and maintaining the lab's web applications and contributing to the development of tools for general analysis.
+
+### Yue Liu, PhD.
+Dr. Yue Liu obtained his Ph.D from Structural and Computational Biology and Molecular Biophysics program at Baylor College of Medicine (BCM). His thesis work was in assembling whole genome sequencing data for complex genomes at the Human Genome Sequencing Center (HGSC) at BCM. He has since worked at HGSC for various projects in next generation sequencing data analysis. His current interest and focus at Wingo’s lab is to combine proteomics and sequencing data for better understanding of the abundance profile of the proteins and its association to diseases.  
 
 ## **Post-Doctoral Fellows**
 
@@ -61,6 +63,9 @@ Dr. Robins received her PhD from the Population Biology, Ecology, and Evolution 
 ### Ha Eun Kong, B.S.
 Ms. Kong is an M.D./Ph.D. student in [Genetics and Molecular Biology Graduate Program](http://www.biomed.emory.edu/PROGRAM_SITES/GMB/index.html) who co-mentored by Drs. Peng Jin and Thomas Wingo. The focus of her work is to identify new genetic modifiers of Fragile X Tremor Ataxia Syndrome and causes of Alzheimer's
 disease.
+
+### Nadia Harerimana, B.A.
+Ms. Harerimana is a Ph.D. student in [Genetics and Molecular Biology Graduate Program](http://www.biomed.emory.edu/PROGRAM_SITES/GMB/index.html) and received her B.A degree in Human Ecology from College of the Atlantic. The focus of her work is to investigate the association between accelerated biological aging (estimated by DNA methylation and telomere length) with lower cognitive performance and higher rate of biomarker evidence for neurodegenerative disease such as Alzheimer’s disease.
 
 ## **Collaborators**
 
