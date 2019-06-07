@@ -65,7 +65,7 @@ Ms. Kong is an M.D./Ph.D. student in [Genetics and Molecular Biology Graduate Pr
 disease.
 
 ### Nadia Harerimana, B.A.
-Ms. Harerimana is a Ph.D. student in [Genetics and Molecular Biology Graduate Program](http://www.biomed.emory.edu/PROGRAM_SITES/GMB/index.html) and received her B.A degree in Human Ecology from College of the Atlantic. The focus of her work is to investigate the association between accelerated biological aging (estimated by DNA methylation and telomere length) with lower cognitive performance and higher rate of biomarker evidence for neurodegenerative disease such as Alzheimer’s disease.
+Ms. Harerimana is a Ph.D. student in [Genetics and Molecular Biology Graduate Program](http://www.biomed.emory.edu/PROGRAM_SITES/GMB/index.html) and received her B.A degree in Human Ecology from College of the Atlantic. The focus of her work is to investigate the association between accelerated biological aging (estimated by DNA methylation or telomere length) and cognitive performance as well as psychological factors such as depression or resilience.
 
 ## **Collaborators**
 
