@@ -7,7 +7,7 @@ permalink: /people/
 ## **Principal Investigators**
 
 ### Aliza P. Wingo, M.D., M.Sc.
-\[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/1l9uz9whqykkE/bibliography/public/)\] \[[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=wingo+a%3F%5Bauthor%5D+or+wingo+ap%5Bauthor%5D)\]
+\[[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=wingo+a%3F%5Bauthor%5D+or+wingo+ap%5Bauthor%5D)\]
 
 Dr. Wingo is an Assistant Professor of
 [Psychiatry](http://www.psychiatry.emory.edu/) at
