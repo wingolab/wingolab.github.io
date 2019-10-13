@@ -4,11 +4,18 @@ title: Projects
 permalink: /Projects/
 ---
 
-The goal of our lab is to find and fight the causes of Alzheimer's disease and
-illuminate the genetic underpinnings of psychological well-being and
-psychological resilience.
+Our lab focuses on understanding the genetic basis of neurodegenerative
+disease (i.e., Alzheimer Disease) and psychological traits (i.e., psychological
+well-being or resilience). Our work has been featured in the
+    <a href="http://www.huffingtonpost.com/entry/593de662e4b0b65670e56be6">
+      Huffington Post</a>, the
+    <a href="http://emoryhealthmagazine.emory.edu/issues/2016/winter/features/blessing-from-a-curse/index.html">
+      Emory Health Magazine</a>, and
+    <a href="https://www.cnn.com/2019/02/06/health/education-dementia-study/index.html">CNN
+    </a>.
 
 ### Understanding the molecular mechanisms behind how psychological well-being and depression modify AD risk
+
 Psychological well-being (PWB) and depression are important factors that modify
 risk for Alzheimer's disease (AD). Specifically, depression is associated with
 increased risk for AD while PWB with decreased risk for AD. Molecular mechanisms
@@ -75,3 +82,10 @@ psychological stress, depression, or anxiety during the prenatal period have hig
 and emotional problems later in life, including increased fearfulness, anxiety, and depression. 
 We will investigate molecular mechanisms underlying this association in collaboration with investigators 
 at University of Cape Town in South Africa and at McLean Hospital.
+
+## Acknowledgements
+
+We are grateful to the many research volunteers who make our work possible, our
+collaborators and financial support received from Veterans Administration, National
+Institutes of Health, Emory University, The To Remember Foundation, American
+Psychiatric Association, and the Brain and Behavior Foundation (formerly NARSAD).
