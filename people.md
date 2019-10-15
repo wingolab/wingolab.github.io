@@ -6,18 +6,15 @@ permalink: /people/
 
 ## **Principal Investigators**
 
+<img class="picture" alt="Aliza" src="/assets/Aliza.jpg">
+
 ### Aliza P. Wingo, M.D., M.Sc.
+
 \[[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=wingo+a%3F%5Bauthor%5D+or+wingo+ap%5Bauthor%5D)\]
 
-Dr. Wingo is an Assistant Professor of
-[Psychiatry](http://www.psychiatry.emory.edu/) at
-[Emory University](https://www.emory.edu/) and Physician-Scientist at the
-[Atlanta Veterans Administration Medical Center](https://www.atlanta.va.gov/).
-She received her Medical Degree and a Master of Science in Clinical Research
-from Emory University where she also completed her residency training in
-Psychiatry. During her career development award, Dr. Wingo acquired advanced
-statistical and bioinformatic skills for association mapping of complex
-phenotypes using genome-wide genotyping, transcriptomes, and microRNA profiles.
+Dr. Wingo is an Assistant Professor of Psychiatry at Emory University and board-certified psychiatrist. She received her medical degree and residency training at Emory University School of Medicine. Subsequently, she completed a research fellowship, Master of Science in Clinical Research, and career development award under the mentorship of Kerry Ressler, MD, PhD. Dr. Wingo studies the genetic and molecular basis of depression, PTSD, as well as of psychological resilience and well-being. Additionally, Dr. Wingo investigates molecular mechanisms underlying the detrimental and protective effects of psychological factors on dementia risk. As an early-stage investigator, Dr. Wingo has received an American Psychiatric Association/Lilly Resident Research award, American Psychiatric Association Research Fellowship award, a NARSAD Young Investigator award, a VA Career Development Award, and recently three federal grants (R01, U01, Merit) to pursue her lines of research inquiries.
+
+<img class="picture" alt="Thomas" src="/assets/Thomas.jpg">
 
 ### Thomas S. Wingo, M.D.
 \[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/thomas.wingo.1/bibliography/public/)\] \[[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=wingo+ts%5Bauthor%5D+or+wingo+t%3F%5Bauthor%5D)\] \[[Google Scholar](https://scholar.google.com/citations?user=kJYqCEsAAAAJ&hl=en&oi=ao)\] \[[GitHub](https://github.com/wingolab/)\]
@@ -35,37 +32,60 @@ at Emory University.
 
 ## **Research Staff**
 
-### Se Min (Minnie) Canon, B.S.
-Ms. Canon joined the Wingo Lab as an Undergraduate Research Assistant in Fall of 2012.  She went on to do a Senior Project on the genetic causes of an early-onset Alzheimer's disease case in a family from Colombia. After graduating with a B.S. in Neuroscience and Behavioral Biology from Emory University. She joined the lab full-time in 2014, and is the Wingo Lab Manager.
-
-### Wen Fan, MS.
-Ms. Fan graduated from Duke University with a Master degree in biostatistics and received her B.S. degree in plant genetics at University of Florida. Wen has a diverse background in bioinformatics and biostatistics. Her research work at Duke included: 1) meta-analysis in lung cancer clinical trials; 2) longitudinal data analysis; and 3) time series data analysis. Ms. Fan joined the Wingo lab in 2018 as a biostatistician.
+<img class="picture" alt="Ekaterina" src="/assets/Ekaterina.jpg">
 
 ### Ekaterina Gerasimov, PhD.
 Dr. Gerasimov earned her doctoral degree in computer science at Georgia State University. She has comprehensive experience in bioinformatics and computational genomics and algorithms. Her general research interest at GSU was designing and applying advanced algorithms and statistical tools for analysis of next-generation sequencing data related to cancer and infection diseases. Dr. Gerasimov joined the Wingo lab in 2018 as an Assistant Bioinformatics Scientist.
 
+<img class="picture" alt="Adriana" src="/assets/Adriana.jpg">
+
 ### Adriana Lori, PhD.
 Dr. Lori received her Ph.D. in Genetic Sciences at the University of Pisa (Italy). Her dissertation focused on identifying chromosomal damages in children exposed to Chernobyl fallout to estimate long-term effects of radiation to the genome. Dr. Lori’s current research involves the role of genetic and epigenetic mechanisms in the development of stress-related disorders and social behaviors. Dr. Lori has been one of the primary genetic investigators of the Grady Trauma Project involved in molecular and bioinformatics analyses of sequence variants, GWAS and whole genome sequencing. Dr. Lori joined the Wingo lab in 2018 as a Research Associate.
 
-### Jacob Meigs, B.E.
-Jacob Meigs received his B.E. in Computer Engineering from the University of South Carolina. His diverse experience extends into web development, software development, and independent web consulting. He joined the Wingo lab in March 2019 and assists in developing and maintaining the lab's web applications and contributing to the development of tools for general analysis.
-
-### Yue Liu, PhD.
-Dr. Yue Liu obtained his Ph.D from Structural and Computational Biology and Molecular Biophysics program at Baylor College of Medicine (BCM). His thesis work was in assembling whole genome sequencing data for complex genomes at the Human Genome Sequencing Center (HGSC) at BCM. He has since worked at HGSC for various projects in next generation sequencing data analysis. His current interest and focus at Wingo’s lab is to combine proteomics and sequencing data for better understanding of the abundance profile of the proteins and its association to diseases.  
-
-## **Post-Doctoral Fellows**
+<img class="picture" alt="Chloe" src="/assets/Chloe.jpg">
 
 ### Chloe Robins, PhD.
 Dr. Robins received her PhD from the Population Biology, Ecology, and Evolution Graduate Program at Emory University. Her doctoral work used statistical genetic methods to investigate the evolutionary basis of human aging. She joined the Wingo Lab after graduation, and is now working on identifying epigenetic and proteomic changes associated with Alzheimer’s Disease.
 
-## **Graduate Students**
+### Yue Liu, PhD.
+Dr. Yue Liu obtained his Ph.D from Structural and Computational Biology and Molecular Biophysics program at Baylor College of Medicine (BCM). His thesis work was in assembling whole genome sequencing data for complex genomes at the Human Genome Sequencing Center (HGSC) at BCM. He has since worked at HGSC for various projects in next generation sequencing data analysis. His current interest and focus at Wingo’s lab is to combine proteomics and sequencing data for better understanding of the abundance profile of the proteins and its association to diseases.  
 
 ### Ha Eun Kong, B.S.
 Ms. Kong is an M.D./Ph.D. student in [Genetics and Molecular Biology Graduate Program](http://www.biomed.emory.edu/PROGRAM_SITES/GMB/index.html) who co-mentored by Drs. Peng Jin and Thomas Wingo. The focus of her work is to identify new genetic modifiers of Fragile X Tremor Ataxia Syndrome and causes of Alzheimer's
 disease.
 
+<img class="picture" alt="Nadia" src="/assets/Nadia.jpg">
+
 ### Nadia Harerimana, B.A.
-Ms. Harerimana is a Ph.D. student in [Genetics and Molecular Biology Graduate Program](http://www.biomed.emory.edu/PROGRAM_SITES/GMB/index.html) and received her B.A degree in Human Ecology from College of the Atlantic. The focus of her work is to investigate the association between accelerated biological aging (estimated by DNA methylation or telomere length) and cognitive performance as well as psychological factors such as depression or resilience.
+Nadia Harerimana is from Kigali, Rwanda and received her B.A degree in Human Ecology from College of the Atlantic. She is a current graduate student in Genetics and Molecular Biology program at Emory University. Her predoctoral training in the Wingo lab focuses on integrating different types of omics data and using statistical tools to illuminate the shared genetic and molecular risk factors that contribute to depression and AD dementia
+
+### Mei Zhen
+Mei Zhen is a graduate student in 8-year Clinical Medicine program from Xiangya School of Medicine, Central South University. Her work is mainly focused on the association between miRNAs and cognitive trajectory.
+
+<img class="picture" alt="Minnie" src="/assets/Minnie.jpg">
+
+### Se Min (Minnie) Canon, B.S.
+Se Min (Minnie) Canon is the Wingo Lab Manager and Senior Research Specialist. She first joined the Wingo Lab as an Undergraduate Research Assistant in Fall of 2012 while attending Emory College. During this time, she did a Senior Research Project on identifying genetic causes of an early-onset Alzheimer’s disease case in a family cohort from Colombia. After graduating with a Bachelor of Science (B.S.) in Neuroscience and Behavioral Biology from Emory University, she joined the lab full-time in 2014. Her work primarily involves nucleic acid extraction and quantification, DNA and miRNA library preparation for sequencing, and DNA genotyping and gene expressions. She manages and oversees research experiments and quality control.
+
+### Wen Fan, MS.
+Ms. Fan graduated from Duke University with a Master degree in biostatistics and received her B.S. degree in plant genetics at University of Florida. Wen has a diverse background in bioinformatics and biostatistics. Her research work at Duke included: 1) meta-analysis in lung cancer clinical trials; 2) longitudinal data analysis; and 3) time series data analysis. Ms. Fan joined the Wingo lab in 2018 as a biostatistician.
+
+### Jacob Meigs, B.E.
+Jacob Meigs received his B.E. in Computer Engineering from the University of South Carolina. His diverse experience extends into web development, software development, and independent web consulting. He joined the Wingo lab in March 2019 and assists in developing and maintaining the lab's web applications and contributing to the development of tools for general analysis.
+
+<img class="picture" alt="Mikolaj" src="/assets/Mikolaj.jpg">
+
+### Mikolaj Figurski
+Mikolaj Figurski is an undergraduate student at Emory University, aiming to graduate in 2022 with a Computer Science B.S and an Economics B.A. He joined the Wingo Lab in October 2018 as a Data Science / Software Development intern, and now actively supports the lab's web application development team.
+
+### Huige Jiang
+Huige Jiang graduated from Georgia Tech with a B.S. in Biomedical Engineering and is currently pursuing a MSPH degree in Biostatistics. She started working in the Wingo lab in May 2019. Her current project is to simulate TMT proteomics data and test the performance of 2 quality control pipelines. 
+
+### Leo Zhao
+Leo Zhao received his B.S. in Biology and Music from Emory University. As an undergraduate student, he studied the role of PTPN21 in cell mechanical properties of hematopoietic stem cells, its role in HSCs niche retention and function, as well as its role in leukemogenesis. Leo joined the Wingo lab in 2019 as a Research Specialist.
+
+### Felicia Obialo
+Felicia Obialo is from Atlanta, GA. She obtained her undergraduate degree in psychology from Xavier University of Louisiana, her master's degree in neuroscience from Tulane University, and is currently a 4th year medical student at University of North Carolina at Chapel Hill with plans to practice holistic psychiatry.
 
 ## **Collaborators**
 

@@ -22,4 +22,13 @@ $grey-color-dark:  darken($grey-color, 25%);
 $on-palm:          600px;
 $on-laptop:        800px;
 
+.picture {
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+}
+
 @import "minima"; 
