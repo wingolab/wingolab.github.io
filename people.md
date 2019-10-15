@@ -19,7 +19,7 @@ Dr. Wingo is an Assistant Professor of Psychiatry at Emory University and board-
 ### Thomas S. Wingo, M.D.
 \[[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/thomas.wingo.1/bibliography/public/)\] \[[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=wingo+ts%5Bauthor%5D+or+wingo+t%3F%5Bauthor%5D)\] \[[Google Scholar](https://scholar.google.com/citations?user=kJYqCEsAAAAJ&hl=en&oi=ao)\] \[[GitHub](https://github.com/wingolab/)\]
 
-Dr. Wingo is an Assistant Professor of
+Dr. Wingo is an Associate Professor of
 [Neurology](http://www.neurology.emory.edu/) and
 [Human Genetics](http://genetics.emory.edu/) at
 [Emory University](https://www.emory.edu/).
@@ -47,12 +47,10 @@ Dr. Lori received her Ph.D. in Genetic Sciences at the University of Pisa (Italy
 ### Chloe Robins, PhD.
 Dr. Robins received her PhD from the Population Biology, Ecology, and Evolution Graduate Program at Emory University. Her doctoral work used statistical genetic methods to investigate the evolutionary basis of human aging. She joined the Wingo Lab after graduation, and is now working on identifying epigenetic and proteomic changes associated with Alzheimer’s Disease.
 
+<img class="picture" alt="Yue" src="/assets/Yue.jpg">
+
 ### Yue Liu, PhD.
 Dr. Yue Liu obtained his Ph.D from Structural and Computational Biology and Molecular Biophysics program at Baylor College of Medicine (BCM). His thesis work was in assembling whole genome sequencing data for complex genomes at the Human Genome Sequencing Center (HGSC) at BCM. He has since worked at HGSC for various projects in next generation sequencing data analysis. His current interest and focus at Wingo’s lab is to combine proteomics and sequencing data for better understanding of the abundance profile of the proteins and its association to diseases.  
-
-### Ha Eun Kong, B.S.
-Ms. Kong is an M.D./Ph.D. student in [Genetics and Molecular Biology Graduate Program](http://www.biomed.emory.edu/PROGRAM_SITES/GMB/index.html) who co-mentored by Drs. Peng Jin and Thomas Wingo. The focus of her work is to identify new genetic modifiers of Fragile X Tremor Ataxia Syndrome and causes of Alzheimer's
-disease.
 
 <img class="picture" alt="Nadia" src="/assets/Nadia.jpg">
 
@@ -81,8 +79,12 @@ Mikolaj Figurski is an undergraduate student at Emory University, aiming to grad
 ### Huige Jiang
 Huige Jiang graduated from Georgia Tech with a B.S. in Biomedical Engineering and is currently pursuing a MSPH degree in Biostatistics. She started working in the Wingo lab in May 2019. Her current project is to simulate TMT proteomics data and test the performance of 2 quality control pipelines. 
 
+<img class="picture" alt="Leo" src="/assets/Leo.jpg">
+
 ### Leo Zhao
 Leo Zhao received his B.S. in Biology and Music from Emory University. As an undergraduate student, he studied the role of PTPN21 in cell mechanical properties of hematopoietic stem cells, its role in HSCs niche retention and function, as well as its role in leukemogenesis. Leo joined the Wingo lab in 2019 as a Research Specialist.
+
+<img class="picture" alt="Felicia" src="/assets/Felicia.jpg">
 
 ### Felicia Obialo
 Felicia Obialo is from Atlanta, GA. She obtained her undergraduate degree in psychology from Xavier University of Louisiana, her master's degree in neuroscience from Tulane University, and is currently a 4th year medical student at University of North Carolina at Chapel Hill with plans to practice holistic psychiatry.
@@ -218,3 +220,7 @@ Master Degree in Analytics at Georgia State University and PhD in
 Biochemistry and Molecular Biology at Wuhan University, China. His work
 focused on proteogenomic approaches to identifing novel genetic variants
 related to AD.
+
+### Ha Eun Kong, B.S.
+Ms. Kong was an M.D./Ph.D. student in [Genetics and Molecular Biology Graduate Program](http://www.biomed.emory.edu/PROGRAM_SITES/GMB/index.html) co-mentored by Drs. Peng Jin and Thomas Wingo. The focus of her work was to identify new genetic modifiers of Fragile X Tremor Ataxia Syndrome and causes of Alzheimer's
+disease.
