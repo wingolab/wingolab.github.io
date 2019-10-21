@@ -4,7 +4,7 @@ title: HGCC
 permalink: /hgcc/
 ---
 
-# Using Sun Grid Engine on the Human Genetics Compute Cluster
+### Using Sun Grid Engine on the Human Genetics Compute Cluster
 
 - Revision: 2017-01-03
 - Original by: Viren Patel
@@ -15,7 +15,7 @@ permalink: /hgcc/
     - See [The Linux Command Line by William E. Shotts, Jr.](http://linuxcommand.org/tlcl.php/)
   2. Secure Shell (SSH) setup on your computer.
 
-# Human Genetics Compute Cluster (HGCC)
+### Human Genetics Compute Cluster (HGCC)
 
 - HGCC consists of one head node and 9 compute nodes.
 - The computes nodes have varying amounts of RAM, CPU (cores), and local
@@ -23,13 +23,13 @@ permalink: /hgcc/
 - Head node is called node00
 - Compute nodes are called node01, node02, …
 
-# Sun Grid Engine (SGE)
+### Sun Grid Engine (SGE)
 
 - HGCC uses Sun Grid Engine to schedule and run jobs on the cluster.
 - The main command for submitting jobs is `qsub`.
 - This tutorial will demonstrate how to use qsub effectively.
 
-# SGE Queues on HGCC
+### SGE Queues on HGCC
 
 - There are two queues defined on HGCC – b.q and i.q
 
@@ -54,7 +54,7 @@ permalink: /hgcc/
     - Requestable resources:
       - Cores
 
-# Strategies
+### Strategies
 - Use local scratch space
 - Use shell scripts
 - Use modules
@@ -67,7 +67,7 @@ Common data sets, e.g. hg38 reference genome, are available in
 Help reduce data duplication. If you have these data in your home directory
 please delete them. If you need some data make a request.
 
-# Strategy: Use local scratch space
+### Strategy: Use local scratch space
 
 - This reduces the network traffic to the /home volume
 - Each compute node has a 1TB /scratch partition
@@ -85,7 +85,7 @@ Sometimes input data is large (e.g. WGS data). In that case, do not copy
 to unique folder; instead read from /home but still use unique folder to
 process your data (and generate output) and then copy results back.
 
-# Strategy: Use SGE job scripts
+### Strategy: Use SGE job scripts
 
 - Create a SGE job script to run your program/pipeline and copy data
 to and from `/scratch`
@@ -94,7 +94,7 @@ one job
 - Use `qsub` to submit your script to SGE. SGE will schedule the script to
 run on a compute node.
 
-# Strategy:  Use Modules
+### Strategy:  Use Modules
 
 - Commands (square brackets indicate optional information)
 
@@ -106,7 +106,7 @@ module unload <name[/version]\> # Unload a module
 module purge                    # Unload all loaded modules
 ```
 
-# Example 1: run FastQC on a single file
+### Example 1: run FastQC on a single file
 
 1. Create a folder to hold all files related to the task/project
  - Recommended folder structure
@@ -120,14 +120,14 @@ ${HOME}/project/output
 ${HOME}/project/sge
 ```
 
-# Example 1: run FastQC on a single file
+### Example 1: run FastQC on a single file
 
 2. Create the job submission script in `${HOME}/project/sge`
   - Recommend to create scripts for each step, e.g. FastQC, mapping, calling,
   etc.
   - Give a descriptive name to your scripts e.g. `step01_fastqc.sh`
 
-# Example 1: run FastQC on a single file
+### Example 1: run FastQC on a single file
 
 ```
 #!/bin/sh
@@ -173,7 +173,7 @@ rsync –av ${TMPDIR}/ ${OUTDIR}/$1
 module unload FastQC
 ```
 
-# Example 1: run FastQC on a single file
+### Example 1: run FastQC on a single file
 
 3. submit your job:
 
@@ -197,7 +197,7 @@ qsub –q b.q –cwd –j y –M youremail@emory.edu ../sge/step01_fastqc.sh <sa
   - SGE options may also be included in the job script instead of specifying
   them on the command line.
 
-# Example 2: run FastQC on multiple files
+### Example 2: run FastQC on multiple files
 
 - Assumption: you have many fastq files in your `project/data` folder. 
 - Complete steps 1 and 2 as shown for Example 1.
@@ -217,7 +217,7 @@ done
 
 Note: qsub limit is 500 jobs. For larger numbers use array jobs.
 
-# SGE: Checking the status of jobs
+### SGE: Checking the status of jobs
 
 - Use qstat to check the status of your jobs
 ```
@@ -229,7 +229,7 @@ qstat
 qstat –u ‘\*’
 ```
 
-# SGE: To delete a job
+### SGE: To delete a job
 
 - Use `qdel` to delete a job
 - `qdel` takes the job-ID from qstat
@@ -247,7 +247,7 @@ vpatel - you do not have the necessary privileges to delete the job
 "37788"
 ```
 
-# SGE: Requesting additional cores for your job
+### SGE: Requesting additional cores for your job
 
 ```
 qsub –q b.q –pe smp 4 …
@@ -268,7 +268,7 @@ additional memory.
   - Multiple small jobs may be more efficient than a single large job. It
   also is more user-friendly.
 
-# SGE: Requesting additional time for your job
+### SGE: Requesting additional time for your job
 
 ```
 qsub –q b.q -l h_rt=hh:mm:ss ...
@@ -286,7 +286,7 @@ qsub –q b.q –l h_rt=1:00:00 ...
   - The above will run your job for one hour then automatically terminate
 it.
 
-# SGE: Using the interactive queue
+### SGE: Using the interactive queue
 
 - Interactive jobs have a maximum run time of **24 hours**.
 - Use `qrsh` to run a command
@@ -301,7 +301,7 @@ qrsh –q i.q ‘module load R && R --no-save && module unload R’
 - Note: `--no-save`, or `--save`, or `--vanilla` are required to R run via the
 interactive queue
 
-# SGE: Interactive Queue with a Graphical User Interface (GUI)
+### SGE: Interactive Queue with a Graphical User Interface (GUI)
 
 - OS X/Windows users will need to install X server software
 - OS X: install [Xquartz](http://www.xquartz.org)
@@ -315,7 +315,7 @@ qlogin –q i.q                          # use qlogin to establish a session on 
 xterm                                  # launch the GUI program
 ```
 
-# SGE: Additional information 
+### SGE: Additional information 
 
 - [Quickstart](http://star.mit.edu/cluster/docs/0.92rc2/guides/sge.html)
 - [Array Jobs](http://wiki.gridengine.info/wiki/index.php/Simple-Job-Array-Howto)

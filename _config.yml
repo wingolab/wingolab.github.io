@@ -21,6 +21,9 @@ paginate: 3
 markdown: kramdown
 theme: minima
 
+sass:
+  sass_dir: _scss
+
 exclude:
 - README.md
 - LICENSE
