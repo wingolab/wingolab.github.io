@@ -12,12 +12,15 @@ body {
     border: 1px solid gray;
     height: 150px;
     width: 150px;
-    float: left;
     margin-right: 30px;
 }
 
 .bio-description {
-    min-height:150px;
+    margin-top:10px;
+
+    & > div {
+        margin: 15px 0;
+    }
 }
 
 @media (min-width: 1200px){
