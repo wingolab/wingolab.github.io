@@ -58,7 +58,8 @@ lab_members:
       - pic_name: Ekaterina
         description: Dr. Gerasimov earned her doctoral degree in computer science at Georgia State University. She has comprehensive experience in bioinformatics and computational genomics and algorithms. Her general research interest at GSU was designing and applying advanced algorithms and statistical tools for analysis of next-generation sequencing data related to cancer and infection diseases. Dr. Gerasimov joined the Wingo lab in 2018 as an Assistant Bioinformatics Scientist.
         title: Ekaterina Gerasimov, Ph.D.
-      - description: Jacob Meigs received his B.E. in Computer Engineering from the University of South Carolina. His diverse experience extends into web development, software development, and independent web consulting. He joined the Wingo lab in March 2019 and assists in developing and maintaining the lab’s web applications and contributing to the development of tools for general analysis.
+      - pic_name: Jacob        
+        description: Jacob Meigs received his B.E. in Computer Engineering from the University of South Carolina. His diverse experience extends into web development, software development, and independent web consulting. He joined the Wingo lab in March 2019 and assists in developing and maintaining the lab’s web applications and contributing to the development of tools for general analysis.
         title: Jacob Meigs, B.E.
       - pic_name: Leo
         description: Leo Zhao received his B.S. in Biology and Music from Emory University. As an undergraduate student, he studied the role of PTPN21 in cell mechanical properties of hematopoietic stem cells, its role in HSCs niche retention and function, as well as its role in leukemogenesis. Leo joined the Wingo lab in 2019 as a Research Specialist.
