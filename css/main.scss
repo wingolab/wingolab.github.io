@@ -1,38 +1,66 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
 
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-$on-palm:          600px;
-$on-laptop:        800px;
+body {
+    position: relative;
+    min-height: 100vh;
+}
 
 .picture {
     border-radius: 50%;
     border: 1px solid gray;
     height: 150px;
     width: 150px;
-    float: left;
     margin-right: 30px;
 }
 
 .bio-description {
-    min-height:150px;
+    margin-top:10px;
+
+    & > div {
+        margin: 15px 0;
+    }
 }
 
-@import "minima"; 
+@media (min-width: 1200px){
+    .navbar-wrapper {
+        max-width: 1140px;
+    }
+}
+
+.nav-link {
+    &:hover{
+        color: #17a2b8!important;
+    }
+}
+
+.custom-nav-header {
+
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: black!important;
+
+    &:hover{
+        color: #17a2b8!important;
+        text-decoration: none!important;
+    }
+}
+
+.site-header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.site-footer {
+    border-top: 1px solid #e8e8e8;
+    padding: 30px 0;
+    margin-top:75px;
+}
+
+@import "old"

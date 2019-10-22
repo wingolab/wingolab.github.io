@@ -1,0 +1,49 @@
+.post-list {
+    margin-left: 0;
+    list-style:none
+}
+
+.post-list > li {
+    margin-bottom:30px
+}
+
+.post-meta {
+    font-size: 14px;
+    color:#828282
+}
+
+.post-link {
+    display: block;
+    font-size:24px
+}
+
+.post-header {
+    margin-bottom:30px
+}
+
+
+pre, code {
+    font-size: 15px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    background-color:#eef
+}
+
+code {
+    padding:1px 5px
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x:auto
+}
+
+pre > code {
+    border: 0;
+    padding-right: 0;
+    padding-left:0
+}
+
+.highlighter-rouge .highlight {
+    background:#eef
+}
