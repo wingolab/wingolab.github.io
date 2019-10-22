@@ -30,7 +30,7 @@ exclude:
 - sgeOnHgcc.md
 
 lab_members:
-  - category: "Principle Investigators"
+  - category: "Principal Investigators"
     people:
       - pic_name: Aliza
         links:
@@ -69,7 +69,7 @@ lab_members:
       - pic_name: Yue
         description: Dr. Yue Liu obtained his Ph.D from Structural and Computational Biology and Molecular Biophysics program at Baylor College of Medicine (BCM). His thesis work was in assembling whole genome sequencing data for complex genomes at the Human Genome Sequencing Center (HGSC) at BCM. He has since worked at HGSC for various projects in next generation sequencing data analysis. His current interest and focus at Wingo’s lab is to combine proteomics and sequencing data for better understanding of the abundance profile of the proteins and its association to diseases.
         title: Yue Liu, Ph.D.
-  - category: "Post-doctoral fellows"
+  - category: "Post-Doctoral Fellows"
     people:    
       - pic_name: Chloe
         description: Dr. Robins received her Ph.D. from the Population Biology, Ecology, and Evolution Graduate Program at Emory University. Her doctoral work used statistical genetic methods to investigate the evolutionary basis of human aging. She joined the Wingo Lab after graduation, and is now working on identifying epigenetic and proteomic changes associated with Alzheimer’s Disease.
