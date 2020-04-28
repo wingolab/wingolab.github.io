@@ -114,6 +114,9 @@ aggregated proteins
 
 ## **Alumni**
 
+### Huige Jiang, B.S.
+Huige Jiang graduated from Georgia Tech with a B.S. in Biomedical Engineering and is currently pursuing a MSPH degree in Biostatistics. She started working in the Wingo lab in May 2019. Her current project is to simulate TMT proteomics data and test the performance of 2 quality control pipelines.
+
 ### Melissa Armendariz, B.S.
 Ms. Armendariz Ms. Armendariz graduated from Virginia Tech with a B.S. in Biochemistry and a minor in Chemistry and Psychology. She was a research coordinator for the Wingo lab from 2016-2019. She left to work for a private company in Georgia.
 
@@ -128,7 +131,7 @@ online proteomics services. He is currently a [postdoctoral fellow](http://www.a
 at the Broad Institute of Harvard and MIT.
 
 ### Brittney Innocente, B.A.
-Ms. Innocente was a research coordinator in 2015-2016 who led Dr. Aliza 
+Ms. Innocente was a research coordinator in 2015-2016 who led Dr. Aliza
 Wingo's Genome-wide Association Study of Resilience until its completion
 in 2016.
 
