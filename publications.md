@@ -4,6 +4,11 @@ title: Publications
 permalink: /publications/
 ---
 
+#### Wingo Lab Publications
+- [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=wingo+a%3F%5Bauthor%5D+or+wingo+ap%5Bauthor%5D+or+wingo+ts%5Bauthor%5D+or+wingo+t%3F%5Bauthor%5D)
+- [bioRxiv](https://www.biorxiv.org/search/author1%3Awingo%20jcode%3Abiorxiv%20numresults%3A10%20sort%3Arelevance-rank%20format_result%3Astandard)
+- [medRxiv](https://www.medrxiv.org/search/author1%3Awingo%20jcode%3Amedrxiv%20numresults%3A10%20sort%3Arelevance-rank%20format_result%3Astandard)
+
 #### Aliza P. Wingo, M.D., M.Sc.
 - [NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/1l9uz9whqykkE/bibliography/public/)
 - [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=wingo+a%3F%5Bauthor%5D+or+wingo+ap%5Bauthor%5D)

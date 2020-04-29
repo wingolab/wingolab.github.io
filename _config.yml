@@ -58,7 +58,7 @@ lab_members:
       - pic_name: Ekaterina
         description: Dr. Gerasimov earned her doctoral degree in computer science at Georgia State University. She has comprehensive experience in bioinformatics and computational genomics and algorithms. Her general research interest at GSU was designing and applying advanced algorithms and statistical tools for analysis of next-generation sequencing data related to cancer and infection diseases. Dr. Gerasimov joined the Wingo lab in 2018 as an Assistant Bioinformatics Scientist.
         title: Ekaterina Gerasimov, Ph.D.
-      - pic_name: Jacob        
+      - pic_name: Jacob
         description: Jacob Meigs received his B.E. in Computer Engineering from the University of South Carolina. His diverse experience extends into web development, software development, and independent web consulting. He joined the Wingo lab in March 2019 and assists in developing and maintaining the lab’s web applications and contributing to the development of tools for general analysis.
         title: Jacob Meigs, B.E.
       - pic_name: Leo
@@ -70,8 +70,14 @@ lab_members:
       - pic_name: Yue
         description: Dr. Yue Liu obtained his Ph.D from Structural and Computational Biology and Molecular Biophysics program at Baylor College of Medicine (BCM). His thesis work was in assembling whole genome sequencing data for complex genomes at the Human Genome Sequencing Center (HGSC) at BCM. He has since worked at HGSC for various projects in next generation sequencing data analysis. His current interest and focus at Wingo’s lab is to combine proteomics and sequencing data for better understanding of the abundance profile of the proteins and its association to diseases.
         title: Yue Liu, Ph.D.
+      - pic_name: Jiaqi
+        description: Jiaqi Liu received her master’s degree in Biostatistics from George Washington University. She joined the Wingo Lab in 2019 as a Biostatistician and contribute to the quality control of proteomics data and analysis of large omics datasets.
+        title: Jiaqi Liu
+      - pic_name: Selina
+        description: Dr. Vattathil received her Ph.D. in Human and Molecular Genetics from The University of Texas MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences in Houston, Texas. Her graduate and postdoctoral work focused on development and application of sensitive and robust pipelines to characterize somatic mutations in healthy individuals. Selina has used her computational genetics background to support various projects in the Wingo Lab since spring 2020.
+        title: Selina Vattathil, Ph.D.
   - category: "Post-Doctoral Fellows"
-    people:    
+    people:
       - pic_name: Chloe
         description: Dr. Robins received her Ph.D. from the Population Biology, Ecology, and Evolution Graduate Program at Emory University. Her doctoral work used statistical genetic methods to investigate the evolutionary basis of human aging. She joined the Wingo Lab after graduation, and is now working on identifying epigenetic and proteomic changes associated with Alzheimer’s Disease.
         title: Chloe Robins, Ph.D.
@@ -80,8 +86,6 @@ lab_members:
       - pic_name: Felicia
         description: Felicia Obialo is from Atlanta, GA. She obtained her undergraduate degree in psychology from Xavier University of Louisiana, her master’s degree in neuroscience from Tulane University, and is currently a 4th year medical student at University of North Carolina at Chapel Hill with plans to practice holistic psychiatry.
         title: Felicia Obialo, B.S.
-      - description: Huige Jiang graduated from Georgia Tech with a B.S. in Biomedical Engineering and is currently pursuing a MSPH degree in Biostatistics. She started working in the Wingo lab in May 2019. Her current project is to simulate TMT proteomics data and test the performance of 2 quality control pipelines.
-        title: Huige Jiang, B.S.
       - pic_name: Nadia
         description: Nadia Harerimana is from Kigali, Rwanda and received her B.A degree in Human Ecology from College of the Atlantic. She is a current graduate student in Genetics and Molecular Biology program at Emory University. Her predoctoral training in the Wingo lab focuses on integrating different types of omics data and using statistical tools to illuminate the shared genetic and molecular risk factors that contribute to depression and AD dementia
         title: Nadia Harerimana
@@ -89,7 +93,7 @@ lab_members:
         description: Mei Zhen is a graduate student in 8-year Clinical Medicine program from Xiangya School of Medicine, Central South University. Her work is mainly focused on the association between miRNAs and cognitive trajectory.
         title: Mei Zhen
   - category: "Undergraduate Students"
-    people:      
+    people:
       - pic_name: Mikolaj
         description: Mikolaj Figurski is an undergraduate student at Emory University, aiming to graduate in 2022 with a Computer Science B.S and an Economics B.A. He joined the Wingo Lab in October 2018 as a Data Science / Software Development intern, and now actively supports the lab's web application development team.
         title: Mikolaj Figurski
