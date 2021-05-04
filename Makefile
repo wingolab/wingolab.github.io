@@ -1,6 +1,6 @@
 JEKYLL_VERSION=3.8
 
-serve: 
+serve:
 	bundle exec jekyll serve
 
 serve-docker:
