@@ -76,19 +76,16 @@ lab_members:
       - pic_name: Selina
         description: Dr. Vattathil received her Ph.D. in Human and Molecular Genetics from The University of Texas MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences in Houston, Texas. Her graduate and postdoctoral work focused on development and application of sensitive and robust pipelines to characterize somatic mutations in healthy individuals. Selina has used her computational genetics background to support various projects in the Wingo Lab since spring 2020.
         title: Selina Vattathil, Ph.D.
-  - category: "Post-Doctoral Fellows"
-    people:
-      - pic_name: Chloe
-        description: Dr. Robins received her Ph.D. from the Population Biology, Ecology, and Evolution Graduate Program at Emory University. Her doctoral work used statistical genetic methods to investigate the evolutionary basis of human aging. She joined the Wingo Lab after graduation, and is now working on identifying epigenetic and proteomic changes associated with Alzheimer’s Disease.
-        title: Chloe Robins, Ph.D.
+  # - category: "Post-Doctoral Fellows"
+  #   people:
+  #     - pic_name:
+  #       description: 
+  #       title: 
   - category: "Graduate Students"
     people:
       - pic_name: Felicia
         description: Felicia Obialo is from Atlanta, GA. She obtained her undergraduate degree in psychology from Xavier University of Louisiana, her master’s degree in neuroscience from Tulane University, and is currently a 4th year medical student at University of North Carolina at Chapel Hill with plans to practice holistic psychiatry.
         title: Felicia Obialo, B.S.
-      - pic_name: Nadia
-        description: Nadia Harerimana is from Kigali, Rwanda and received her B.A degree in Human Ecology from College of the Atlantic. She is a current graduate student in Genetics and Molecular Biology program at Emory University. Her predoctoral training in the Wingo lab focuses on integrating different types of omics data and using statistical tools to illuminate the shared genetic and molecular risk factors that contribute to depression and AD dementia
-        title: Nadia Harerimana
       - pic_name: Mei
         description: Mei Zhen is a graduate student in 8-year Clinical Medicine program from Xiangya School of Medicine, Central South University. Her work is mainly focused on the association between miRNAs and cognitive trajectory.
         title: Mei Zhen
