@@ -25,4 +25,3 @@ To redirect `wingolab.com` and `wingolab.net` to `wingolab.org`
 redirect to `http://wingolab.org`.
 
 [1]: https://bundler.io
-

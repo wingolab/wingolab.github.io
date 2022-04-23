@@ -27,10 +27,8 @@ permalink: /people/
 {% for link in person.links %} \[[{{link.name}}]({{link.href}})\] {% endfor %}
 
 {{person.description}}
+
 </div>
 </div>
 {% endfor %}
 {% endfor %}
-
-
-

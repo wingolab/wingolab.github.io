@@ -6,7 +6,7 @@ permalink: /Software/
 
 ### [Bystro](https://bystro.io)
 
-Comprehensively *annotate* and *search* alleles found in a next-generation
+Comprehensively _annotate_ and _search_ alleles found in a next-generation
 sequencing experiments, including experiments that contain 1,000s to 10,000s of
 individuals.
 
