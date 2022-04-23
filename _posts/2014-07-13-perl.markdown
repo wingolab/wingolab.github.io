@@ -1,0 +1,389 @@
+---
+layout: post
+title: perl notes
+date: 2014-07-13 21:55:18.000000000 -04:00
+---
+
+## local perl setup
+
+### install perlbrew
+
+```sh
+\curl -L http://install.perlbrew.pl | bash
+```
+
+### install local perl and cpanm
+
+After restarting your shell or sourcing the files installed by perlbrew you can build a new perl version that can be installed locally.
+Afterward, you can install cpanm to install perl packages using the local perl you just built.
+
+```sh
+PERL_VERSION="perl-5.35.10"
+perlbrew install ${PERL_VERSION}
+perlbrew switch ${PERL_VERSION}
+perlbrew install-cpanm
+```
+
+## find files with perl
+
+Try the handy `find2perl` utility that comes with perl and uses the File::Find
+package. It writes a little script for you that you can adapt. See the
+[perldoc site](http://perldoc.perl.org/File/Find.html) for further details.
+
+An example from the documentation
+
+````sh
+find2perl / -name .nfs\* -mtime +7 \
+-exec rm -f {} \; -o -fstype nfs -prune
+``
+
+Gives you a `wanted` subroutine like so:
+
+```perl
+sub wanted {
+    /^\.nfs.*\z/s &&
+    (($dev, $ino, $mode, $nlink, $uid, $gid) = lstat($_)) &&
+    int(-M _) > 7 &&
+    unlink($_)
+    ||
+    ($nlink || (($dev, $ino, $mode, $nlink, $uid, $gid) = lstat($_))) &&
+    $dev < 0 &&
+    ($File::Find::prune = 1);
+}
+````
+
+Here's a modification that gives you files ending in txt modified between
+50 and 20 days ago.
+
+```perl
+sub wanted {
+    my ($dev,$ino,$mode,$nlink,$uid,$gid);
+
+    /\.txt\z/s &&
+    (($dev,$ino,$mode,$nlink,$uid,$gid) = lstat($_)) &&
+    (int(-M _) < 50) && (int(-M _) > 20)
+    && print("$name\n");
+}
+```
+
+## find perl module location
+
+Basically, `@INC` gives you the locations of modules; `%INC` is a hash with the
+keys as modules and values as locations of the module.
+
+```sh
+perl -MXSLoader -lE 'map { print join(" ", $_, "=>", $INC{$_}); } keys %INC'
+```
+
+You can also achieve the same effect of figuring out where the module is located
+using `perldoc`.
+
+```sh
+perldoc -lm XSLoader
+```
+
+## perl DBD::mysql
+
+By default `DBD::mysql` does not compile in ssl. The simplest way to have it
+compile with ssl is to set the environmental variable, `export DBD_MYSQL_SSL=1`.
+If you install it with `cpanm`, for instance, it will install correctly if you
+set the environmental variable.
+
+There are other environmental variables, too, that can be set, mostly to assist
+with testing. See `perldoc DBD::mysql`.
+
+## perl text manipulation
+
+### command line
+
+#### split lines automatically on white-space
+
+Splitting text on the command line with `-a` creates `@F` automatically, which
+has all of the processed text. It must be used with either the `-n` or `-p`
+options, which both place a loop around your script. The difference being that
+`-p` executes your commands and _prints_ the value of `$_` afterward.
+
+```sh
+perl -nalE '{ print $F[3]; }' some_file
+```
+
+### specify how to split each line with `-F`
+
+Specifying `-F` implicitly sets `-a` and `-n`. To split using the semicolon try:
+
+```sh
+perl -F';' -lE '{ print $F[2]; }' some_file
+```
+
+### read csv
+
+```perl
+use Text::CSV_XS;
+use Text::Iconv;
+my $csv_reader = Text::CSV_XS->new({auto_diag => 1, binary => 1});
+```
+
+### write csv
+
+```perl
+use Text::CSV_XS;
+my $csv_writer = Text::CSV_XS->new({
+    binary => 1, auto_diag => 1, always_quote => 1, eol => "\n"
+});
+```
+
+### read xls
+
+```perl
+use Spreadsheet::ParseExcel;
+my $parser   = Spreadsheet::ParseExcel->new();
+my $workbook = $parser->parse($file);
+```
+
+### read xlsx
+
+Note, that you do not necessarily need to use the converter.
+
+```perl
+use Spreadsheet::XLSX;
+use Text::Iconv;
+my $converter = Text::Iconv->new("utf-8", "windows-1251");
+my $in_excel = Spreadsheet::XLSX->new($file, $converter);
+```
+
+### write xlsx
+
+```perl
+use Excel::Writer::XLSX;
+my $workbook = Excel::Writer::XLSX->new("$out_ext.xlsx");
+$workbook->set_properties(
+    title    => "data created by $prog_name on $now_time",
+    author   => 'TS Wingo',
+    comments => 'created with perl and Excel::Writer::XLSX'
+);
+```
+
+## perl serializing data
+
+### JSON - for machines
+
+```perl
+use JSON
+my $json = new JSON;
+print $json->pretty(1)->encode(\%data);
+```
+
+### YAML - for humans
+
+```perl
+use YAML qw(Dump Bless);
+print Dump(\%data);
+```
+
+## perl dates/times
+
+### read dates and make a DateTime object
+
+```perl
+use DateTime;
+use DateTime::Format::Strptime;
+
+# some common ones I've (unfortuneately) encountered
+
+# YYYY-MM-DD
+my $strp_dt_iso    = DateTime::Format::Strptime->new(
+    pattern => '%F', on_error => 'croak'
+);
+
+# MM/DD/YYYY HH:MM:SS AM/PM (12h time)
+my $strp_dt_us_12h = DateTime::Format::Strptime->new(
+    pattern => '%m/%d/%Y %I:%M:%S %p', on_error => 'croak'
+);
+
+# MM/DD/YYYY
+my $strp_dt_us     = DateTime::Format::Strptime->new(
+    pattern => '%m/%d/%Y', on_error => 'croak'
+);
+
+# DD-Mos-YY (month = 3 letter abbreviation)
+my $strp_dt_crazy  = DateTime::Format::Strptime->new(
+    pattern => '%d-%B-%y', on_error => 'croak'
+);
+
+# parse
+$dt = $strp_dt_us->parse_datetime($this_data{date});
+
+## get current time?
+
+use Time::localtime;
+# time
+my $now_time       = ctime();
+# date
+my $now_timestamp  = sprintf("%d-%d-%d", eval(localtime->year() + 1900),
+    eval(localtime->mon() + 1), localtime->mday());
+
+## file modified time
+
+use Time::localtime;
+use File::stat;
+$date_string = ctime(stat($file)->mtime);
+```
+
+## perl `HERE` documents
+
+[Here](http://perlmaven.com/here-documents)'s an overview how to use them.
+
+### non-interpreted
+
+```perl
+my $cmd = <<'EOF';
+#!/bin/sh
+touch file.tmp
+EOF
+
+print $cmd;
+```
+
+### interpreted
+
+```perl
+my $cmd = <<"EOF";
+#!/bin/sh
+touch $this_file
+EOF
+
+print $cmd;
+```
+
+### white space
+
+If you have indented things and you want the here document to be alignged just
+tell perl to get rid of the leading whitespace like so.
+
+```perl
+(my $cmd = <<"EOF") =~ s/\A\s+//gm;
+...
+EOF
+```
+
+### perl's q{} or qq{} commands
+
+Another option is just to use qq or q (depending on whether you want to interpolate
+things).
+
+```perl
+(my $cmd = qq{
+#!/bin/sh
+touch $this_file
+}) =~ s/\A\s+//mg;
+```
+
+## perl error handling
+
+Lots of people like `Try::Tiny`, which is fine. I have used the following approach.
+Basically, you just put the thing that might fail in an eval block, as per usual, and inspect the return value (without necessarily depend on `$@` to have the right error since it can be clobbered sometimes).
+
+```perl
+eval {
+
+    # do something that fails
+    1 / 0;
+
+    # return true to indicate success
+    1;
+}
+or do {
+
+    # say something about it and have a default statement
+    my $error = $@ || 'unknown failure';
+
+    # notice you'll need the semi-colon unless you're at the end of a block
+};
+```
+
+See this [stackoverflow](http://stackoverflow.com/a/7599303) and [perltv.org](http://perltv.org/) for more details.
+
+## perl cheat sheet
+
+Originally found [here](http://juerd.nl/site.plp/perlcheat).
+
+```text
+CONTEXTS  SIGILS             ARRAYS        HASHES
+void      $scalar   whole:   @array        %hash
+scalar    @array    slice:   @array[0, 2]  @hash{'a', 'b'}
+list      %hash     element: $array[0]     $hash{'a'}
+&sub
+*glob    SCALAR VALUES
+number, string, reference, glob, undef
+REFERENCES
+\     references      $$foo[1]       aka $foo->[1]
+$@%&* dereference     $$foo{bar}     aka $foo->{bar}
+[]    anon. arrayref  ${$$foo[1]}[2] aka $foo->[1]->[2]
+{}    anon. hashref   ${$$foo[1]}[2] aka $foo->[1][2]
+\()   list of refs
+                        NUMBERS vs STRINGS  LINKS
+OPERATOR PRECEDENCE     =          =        perl.plover.com
+->                      +          .        search.cpan.org
+++ --                   == !=      eq ne         cpan.org
+**                      < > <= >=  lt gt le ge   pm.org
+! ~ \ u+ u-             <=>        cmp           tpj.com
+=~ !~                                            perldoc.com
+* / % x                 SYNTAX
++ - .                   for    (LIST) { }, for (a;b;c) { }
+<< >>                   while  ( ) { }, until ( ) { }
+named uops              if     ( ) { } elsif ( ) { } else { }
+< > <= >= lt gt le ge   unless ( ) { } elsif ( ) { } else { }
+== != <=> eq ne cmp     for equals foreach (ALWAYS)
+&
+| ^              REGEX METACHARS            REGEX MODIFIERS
+&&               ^     string begin         /i case insens.
+||               $     str. end (before \n) /m line based ^$
+.. ...           +     one or more          /s . includes \n
+?:               *     zero or more         /x ign. wh.space
+= += -= *= etc.  ?     zero or one          /g global
+, =>             {3,7} repeat in range
+list ops         ()    capture          REGEX CHARCLASSES
+not              (?:)  no capture       .  == [^\n]
+and              []    character class  \s == [\x20\f\t\r\n]
+or xor           |     alternation      \w == [A-Za-z0-9_]
+                    \b    word boundary    \d == [0-9]
+                    \z    string end       \S, \W and \D negate
+DO
+use strict;        DON'T            LINKS
+use warnings;      "$foo"           perl.com
+my $var;           $$variable_name  perlmonks.org
+open() or die $!;  `$userinput`     use.perl.org
+use Modules;       /$userinput/     perl.apache.org
+                                    parrotcode.org
+
+FUNCTION RETURN LISTS
+stat      localtime    caller         SPECIAL VARIABLES
+0 dev    0 second     0 package      $_    default variable
+1 ino    1 minute     1 filename     $0    program name
+2 mode   2 hour       2 line         $/    input separator
+3 nlink  3 day        3 subroutine   $\    output separator
+4 uid    4 month-1    4 hasargs      $|    autoflush
+5 gid    5 year-1900  5 wantarray    $!    sys/libcall error
+6 rdev   6 weekday    6 evaltext     $@    eval error
+7 size   7 yearday    7 is_require   $$    process ID
+8 atime  8 is_dst     8 hints        $.    line number
+9 mtime               9 bitmask      @ARGV command line args
+10 ctime  just use                    @INC  include paths
+11 blksz  POSIX::      3..9 only      @_    subroutine args
+12 blcks  strftime!    with EXPR      %ENV  environment
+```
+
+## perl books
+
+- [The PDL Book](http://www.physics.purdue.edu/~mlister/articles/PDL-Book-20120205.pdf)
+- [Modern Perl](http://www.onyxneon.com/books/modern_perl/index.html)
+
+## perl moose
+
+- [slides](http://www.houseabsolute.com/presentations/intro-moose-class/)
+- [files for slides](http://www.urth.org/~autarch/intro-to-moose.tar.gz)
+- [Moose on metacpan](https://metacpan.org/release/Moose)
+- [Native Traits](https://metacpan.org/pod/Moose::Meta::Attribute::Native)
+- [Roles](https://metacpan.org/pod/distribution/Moose/lib/Moose/Manual/Roles.pod)
+- [Attributes](https://metacpan.org/pod/distribution/Moose/lib/Moose/Manual/Attributes.pod)
+- [BUILD and BUILDARGS](https://metacpan.org/pod/distribution/Moose/lib/Moose/Cookbook/Basics/Person_BUILDARGSAndBUILD.pod)

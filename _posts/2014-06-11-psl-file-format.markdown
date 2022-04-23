@@ -3,7 +3,8 @@ layout: post
 title: psl file format
 date: 2014-06-11 09:43:27.000000000 -04:00
 ---
-# psl format described by UCSC genome browswer website [here](http://www.genome.ucsc.edu/FAQ/FAQformat.html)
+
+## psl format described by UCSC genome browswer website [here](http://www.genome.ucsc.edu/FAQ/FAQformat.html)
 
 Here's my thumbnail sketch; it's used by Jim Kent's isPcr program.
 

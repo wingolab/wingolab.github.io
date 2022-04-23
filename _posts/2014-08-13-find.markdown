@@ -1,0 +1,23 @@
+---
+layout: post
+title: "`find` files based on time"
+date: 2014-08-13 10:12:49.000000000 -04:00
+---
+
+`find` commands for BSD unix (or macOS) by file time.
+
+### find files modified within the last day
+
+    find ./ -Btime -1d
+
+### find files accessed within the last day
+
+    find ./ -atime -1d
+
+### find files created within the last day
+
+    find ./ -ctime -1d
+
+### find files modified between 50 and 100 days ago
+
+    find ./ -Btime +50d -Btime -100d

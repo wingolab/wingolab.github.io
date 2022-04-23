@@ -1,0 +1,75 @@
+---
+layout: post
+title: git notes
+date: 2014-04-13 09:34:38.000000000 -04:00
+---
+
+## References
+
+[Pro Git book](http://git-scm.com/book/en/v2) by Scott Chacon and Ben Straubfor.
+
+## Setup a remote repository
+
+Suppose you want to setup git version control in a project directory `project`.
+
+Make the initial commit
+
+```sh
+cd project
+git init
+git add -A
+git commit -m "initial commit - adding everything"
+```
+
+Clone the bare git directory
+
+```sh
+cd ..
+git clone --bare ./project project.git
+```
+
+Recursively copy the bare git repository to the server.
+
+```sh
+scp P <port> -r ./project.git user@server:/opt/git/project.git
+```
+
+Add the repository to your list of remotes using the standard `user@server:port` format.
+
+```sh
+cd ./project
+git remote add origin ssh://user@server:port/opt/git/project.git
+git remote -v
+```
+
+Check the remote
+
+```sh
+git remote show origin
+```
+
+## Reverting changes to HEAD for a _single_ file
+
+To revert changes for a given file to the latest commit (i.e., HEAD):
+
+```sh
+git checkout filename
+```
+
+If the file you wish to revert _happens to be the name of a branch_:
+
+```sh
+git checkout -- filename
+```
+
+## Ignoring files in a git repository, i.e. `gitignore`
+
+See [gitignore repo](https://github.com/github/gitignore).
+
+Tells you what's currently being used to ignore stuff:
+
+`git config --get core.excludesfile`
+
+Configure git to ignore `~/.gitignore`
+
+`git config --global core.excludesfile '~/.gitignore'`

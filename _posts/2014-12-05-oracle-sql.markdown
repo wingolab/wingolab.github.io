@@ -1,37 +1,36 @@
 ---
-
 layout: post
 title: "Oracle SQL notes"
 date: "2017-06-17"
 ---
 
-# connecting on OS X / Linux 
+## connecting on OS X / Linux
 
 This is not trivial on OS X. I used this [guide](http://apextips.blogspot.com/2015/09/making-connections-to-oracle-database.html)
-as a starting place and the documentation for 
+as a starting place and the documentation for
 [sqlplus](https://docs.oracle.com/cd/B19306_01/server.102/b14357/ch12015.htm).
 
 ## Driver Setup
 
-Install the oracle client and SDK. For linux Ubuntu provides instructions 
-[here](https://help.ubuntu.com/community/Oracle%20Instant%20Client). For OS X, 
-the procedure is similar. First, download the oracle client 
-[here](http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html). 
-You want the client, the SDK, and sqlplus. Next, unzip the client (e.g., 
-`client_12`) and unzip SDK into the client folder (e.g., `client_12\sdx`). 
+Install the oracle client and SDK. For linux Ubuntu provides instructions
+[here](https://help.ubuntu.com/community/Oracle%20Instant%20Client). For OS X,
+the procedure is similar. First, download the oracle client
+[here](http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html).
+You want the client, the SDK, and sqlplus. Next, unzip the client (e.g.,
+`client_12`) and unzip SDK into the client folder (e.g., `client_12\sdx`).
 
 Here are the files I downloaded circa 2017:
 
-```
+```sh
 instantclient-basiclite-macos.x64-12.1.0.2.0.zip
 instantclient-sdk-macos.x64-12.1.0.2.0.zip
 instantclient-sqlplus-macos.x64-12.1.0.2.0.zip
 ```
 
-Here is how I unzipped those files and moved them to their new home, 
+Here is how I unzipped those files and moved them to their new home,
 `${LOC_SYS}/oracle`.
 
-```
+```sh
 mkdir ${LOC_SYS}/oracle
 
 unzip instantclient-basiclite-macos.x64-12.1.0.2.0.zip
@@ -47,20 +46,20 @@ mv instantclient_12_1/* ${LOC_SYS}/oracle
 rmdir instantclient_12_1/
 ```
 
-I add the oracle libraries to `${LOC_SYS}/lib`, but I do not think this is 
+I add the oracle libraries to `${LOC_SYS}/lib`, but I do not think this is
 needed.
 
-```{bash}
+```sh
 cd ${LOC_SYS}/lib
 ln -sv ../oracle/*dylib* .
 ```
 
-To install the golang driver you will need to create a `oci8.pc` for 
+To install the golang driver you will need to create a `oci8.pc` for
 pkg-config. Place the final file here: `${LOC_SYS}/lib/pkgconfig/oci8.pc`
 
 `oci8.pc` contents:
 
-```
+```sh
 prefix=${LOC_SYS}/oracle
 exec_prefix=${prefix}
 libdir=${exec_prefix}
@@ -71,23 +70,22 @@ Description: oci8 library
 Cflags: -I${includedir}
 Libs: -L${libdir} -lclntsh
 Version: 12.1
-
 ```
 
 Add oracle files to the path and create an environmental variable `$ORACLE_HOME`
 
-```{bash}
+```sh
 export PATH=${PATH}:${LOC_SYS}/oracle
 export ORACLE_HOME=${LOC_SYS}/oracle
 ```
 
 Finally, we need to update the host file.
 
-Edit the hosts file (`/etc/hosts`) to include local computer name by adding the 
+Edit the hosts file (`/etc/hosts`) to include local computer name by adding the
 computer name to the end of the 127.0.0.1 line. Use `hostname` to get the name
 of your computer. The final hosts file will look like:
 
-```
+```text
 127.0.0.1 localhost <local computer name>
 ```
 
@@ -95,14 +93,14 @@ of your computer. The final hosts file will look like:
 
 I could only make a manual solution work. Download and untar DBD::Oracle and install as per usual:
 
-```
+```sh
 perl Makefile.PL
 make
 ```
 
 Now, update `blib/arch/auto/DBD/Oracle/Oracle.bundle` with the right path to the library.
 
-```
+```sh
 otool -L blib/arch/auto/DBD/Oracle/Oracle.bundle
 # here's what it should look at this step
 #blib/arch/auto/DBD/Oracle/Oracle.bundle:
@@ -122,12 +120,43 @@ otool -L blib/arch/auto/DBD/Oracle/Oracle.bundle
 make test
 ```
 
-The perl library seems to look for the TNS file `tnsnames.ora` in 
+The perl library seems to look for the TNS file `tnsnames.ora` in
 `${ORACLE_HOME}/network/admin`.
 
-# Connecting
+## Connecting
 
-The commandline tool is `sqlplus`. For connections that exist in your 
-`tnsnames.ora` file which is located on your $HOME directory by default, 
-connect to those hosts with `sqlplus <USERNAME>@<DATABASE>`. The default is 
+The commandline tool is `sqlplus`. For connections that exist in your
+`tnsnames.ora` file which is located on your $HOME directory by default,
+connect to those hosts with `sqlplus <USERNAME>@<DATABASE>`. The default is
 sqlplus `username/password@address:port/service_name`.
+
+### oracle SQL
+
+Instead of having `show dbs` like mysql you need to use the system-level
+metadata to figure out schema names, tables, and what you can access. The tables
+that are of most help are `ALL_TABLES`, `ALL_USERS`, `ALL_VIEWS`, `ALL_OBJECTS`,
+`ALL_TRIGGERS`, and `ALL_INDEXES`. All of these are prefixed by `SYS`. Here are
+a few examples of how to use these tables taken from
+[this post](http://www.razorsql.com/articles/oracle_system_queries.html).
+
+I'm, of course, not an oracle DBA or anything approaching a sophisticated user.
+I only note that when oracle users speak of `schemas` and `users` these terms
+seem to have some equivalency.
+
+### tables
+
+List all of the tables you can view.
+
+```sql
+select TABLE_NAME, OWNER from SYS.ALL_TABLES order by OWNER, TABLE_NAME;
+```
+
+Add `where OWNER = 'some_schema'` if desired.
+
+### views
+
+```sql
+select VIEW_NAME, OWNER from SYS.ALL_VIEWS order by OWNER, VIEW_NAME;
+```
+
+Add `where OWNER = 'some_schema'`

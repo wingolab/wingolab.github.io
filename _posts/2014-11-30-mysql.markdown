@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "mysql commands"
+title: "mysql notes"
 date: "2014-11-30"
 ---
 
@@ -115,7 +115,6 @@ When joining tables with the same name mysql will return the names of both colum
 
     SELECT a.name, b.name AS name2 FROM a INNER JOIN b WHERE a.name = b.name
 
-
 ## Perl DBI Notes
 
 ### DBI hashref
@@ -189,7 +188,6 @@ To specify each value separately try this:
       my ($name, $city, $state) = split(/\t/, $_);
       $sth->execute($name, $city, $state);
     }
-
 
 ### DBI bind query results to variables
 

@@ -4,46 +4,54 @@ title: "gnu screen"
 date: "2016-11-12 12:37:30 -0500"
 ---
 
-# Examples
+## Examples
 
 Run a single command and detach
 
-    screen -d -m script.sh
+```sh
+screen -d -m script.sh
+```
 
-Run *multiple* commands while detached:
+Run _multiple_ commands while detached:
 
-    screen -dm bash -c "script01.sh; script02.sh"
+```sh
+screen -dm bash -c "script01.sh; script02.sh"
+```
 
 Run commands and keep screen alive afterward
 
-    screen -dm bash -c 'script01.sh; exec bash'
+```sh
+screen -dm bash -c 'script01.sh; exec bash'
+```
 
 Naming screen sessions
 
-    screen -S Script -dm script.sh
-
-## Additional help & cheatsheet stuff.
-
-Mostly copied from [here](http://neophob.com/2007/04/gnu-screen-cheat-sheet/) and [here](http://aperiodic.net/screen/quick_reference).
-
-## Starting `screen`
-
-```
-screen -DR            -> list of detached screen
-screen -r PID         -> attach detached screen session
-screen -dmS MySession -> start a detached screen session
-screen -r MySession   -> attach screen session with name MySession
+```sh
+screen -S Script -dm script.sh
 ```
 
-## Default command key
+### Additional help
 
+See [here](http://neophob.com/2007/04/gnu-screen-cheat-sheet/) and [here](http://aperiodic.net/screen/quick_reference).
+
+### Starting screen
+
+```sh
+screen -DR MySession  # attach or start screen session with name MySession
+screen -ls            # list of detached screen
+screen -r PID         # attach detached screen session
+screen -dmS MySession # start a detached screen session
 ```
+
+### Default command key
+
+```text
 command key -> ctrl + a
 ```
 
-## Basic Commands
+### Basic Commands
 
-```
+```text
 command key + c           -> create new window
 command key + A           -> set window name
 command key + w           -> show all window
@@ -54,9 +62,9 @@ command key + d           -> detach window
 command key + ?           -> help
 ```
 
-## Clipboard
+### Clipboard
 
-```
+```text
 command key + [ or `esc`    -> toggle buffer navigation
 `space`                     -> toggle selection to copy while navigating buffer
 `enter`                     -> accept current selection
@@ -69,9 +77,9 @@ ctrl + f                    -> move forward
 `arrow keys`                -> move in buffer
 ```
 
-## Additional Commands
+### Additional Commands
 
-```
+```text
 command key + S       -> create split screen
 command key + TAB     -> switch between split screens
 command key + Q       -> Kill all regions but the current one.
