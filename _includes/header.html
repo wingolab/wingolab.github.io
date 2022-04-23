@@ -1,24 +1,30 @@
 <header class="site-header">
-
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="custom-nav-header" href="/">Wingo Lab</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
-    
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          {% for page in site.pages %}
-            {% if page.title %}
-              <li class="nav-item active">
-                <a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-              </li>
-            {% endif %}
-          {% endfor %}
+          {% for page in site.pages %} {% if page.title %}
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ page.url | prepend: site.baseurl }}"
+              >{{ page.title }}</a
+            >
+          </li>
+          {% endif %} {% endfor %}
         </ul>
       </div>
     </div>
   </nav>
-
 </header>
