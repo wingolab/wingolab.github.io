@@ -166,6 +166,9 @@ lab_members:
       - pic_name: Ekaterina
         description: Dr. Gerasimov earned her doctoral degree in computer science at Georgia State University. She has comprehensive experience in bioinformatics and computational genomics and algorithms. Her general research interest at GSU was designing and applying advanced algorithms and statistical tools for analysis of next-generation sequencing data related to cancer and infection diseases. Dr. Gerasimov joined the Wingo lab in 2018 as an Assistant Bioinformatics Scientist.
         title: Ekaterina Gerasimov, Ph.D.
+      - pic_name: Dennis
+        description: Dennis Lin received his B.S. in Computer Science from Kennesaw State University. He joined the Wingo lab in April 2022 and assists in developing and maintaining the lab’s web applications and contributing to the development of tools for general analysis.
+        title: Dennis Lin, B.S.
       - pic_name: Jiaqi
         description: Jiaqi Liu received her master's degree in Biostatistics from George Washington University. She joined the Wingo Lab in 2019 as a Biostatistician and contribute to the quality control of proteomics data and analysis of large omics datasets.
         title: Jiaqi Liu, M.S.
@@ -178,6 +181,12 @@ lab_members:
       - pic_name: Yue
         description: Dr. Yue Liu obtained his Ph.D from Structural and Computational Biology and Molecular Biophysics program at Baylor College of Medicine (BCM). His thesis work was in assembling whole genome sequencing data for complex genomes at the Human Genome Sequencing Center (HGSC) at BCM. He has since worked at HGSC for various projects in next generation sequencing data analysis. His current interest and focus at Wingo's lab is to combine proteomics and sequencing data for better understanding of the abundance profile of the proteins and its association to diseases.
         title: Yue Liu, Ph.D.
+
+  - category: "Undergraduate Students"
+    people:
+      - pic_name: Rishab
+        description: Rishab Bhatt is an undergraduate student majoring in Neuroscience and Behavioral Biology and minoring in Computer Science. Joining the Wingo Lab in the fall of 2019, he uses machine learning to study Purpose-in-Life in both African and European Americans using the Health and Retirement Study (HRS). Rishab has strong interests in health equity, computational, and psychiatry research.
+        title: Rishab Bhatt
 
   - category: "Graduate Students"
     people:
@@ -205,7 +214,8 @@ lab_members:
       - pic_name: Felicia
         description: Felicia Obialo is from Atlanta, GA. She obtained her undergraduate degree in psychology from Xavier University of Louisiana, her master's degree in neuroscience from Tulane University, and is currently a 4th year medical student at University of North Carolina at Chapel Hill with plans to practice holistic psychiatry.
         title: Felicia Obialo, M.D.
-      - description: Dr. Kong was an M.D./Ph.D. student in Genetics and Molecular Biology Graduate Program co-mentored by Drs. Peng Jin and Thomas Wingo. The focus of her work was to identify new genetic modifiers of Fragile X Tremor Ataxia Syndrome. She is currently completing her medical degree and will begin a Dermatology Residency in 2022 at Emory University School of Medicine.
+      - pic_name: Haeun
+        description: Dr. Kong was an M.D.,Ph.D. student in Genetics and Molecular Biology Graduate Program co-mentored by Drs. Peng Jin and Thomas Wingo. The focus of her work was to identify new genetic modifiers of Fragile X Tremor Ataxia Syndrome. She is currently a dermatology resident at Emory University School of Medicine aiming to pursue a career in academic pediatric dermatology.
         title: Ha Eun Kong, M.D., Ph.D.
       - pic_name: Irene
         description: Huige Jiang graduated from Georgia Tech with a B.S. in Biomedical Engineering and is currently pursuing a MSPH degree in Biostatistics. She started working in the Wingo lab in May 2019. Her current project is to simulate TMT proteomics data and test the performance of 2 quality control pipelines.
