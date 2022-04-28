@@ -182,12 +182,6 @@ lab_members:
         description: Dr. Yue Liu obtained his Ph.D from Structural and Computational Biology and Molecular Biophysics program at Baylor College of Medicine (BCM). His thesis work was in assembling whole genome sequencing data for complex genomes at the Human Genome Sequencing Center (HGSC) at BCM. He has since worked at HGSC for various projects in next generation sequencing data analysis. His current interest and focus at Wingo's lab is to combine proteomics and sequencing data for better understanding of the abundance profile of the proteins and its association to diseases.
         title: Yue Liu, Ph.D.
 
-  - category: "Undergraduate Students"
-    people:
-      - pic_name: Rishab
-        description: Rishab Bhatt is an undergraduate student majoring in Neuroscience and Behavioral Biology and minoring in Computer Science. Joining the Wingo Lab in the fall of 2019, he uses machine learning to study Purpose-in-Life in both African and European Americans using the Health and Retirement Study (HRS). Rishab has strong interests in health equity, computational, and psychiatry research.
-        title: Rishab Bhatt
-
   - category: "Graduate Students"
     people:
       - pic_name: Charlotte
@@ -199,6 +193,12 @@ lab_members:
       - pic_name: Taha
         description: Taha Rana is currently an MPH student, studying Genetic and Molecular Epidemiology at the Rollins School of Public Health at Emory University. He obtained his B.S. in Neuroscience from George Washington University. As an undergraduate student, he conducted community-based participatory research to elucidate rates of infectious disease, health promotion, and health equity to influence health policy for social determinants of health. Taha joined the Wingo Lab in the fall of 2021 and is currently studying how genetic liability for depression is associated with the incidence of cognitive impairment for his Master's Thesis.
         title: Taha Rana B.S.
+
+  - category: "Undergraduate Students"
+    people:
+      - pic_name: Rishab
+        description: Rishab Bhatt is an undergraduate student majoring in Neuroscience and Behavioral Biology and minoring in Computer Science. Joining the Wingo Lab in the fall of 2019, he uses machine learning to study Purpose-in-Life in both African and European Americans using the Health and Retirement Study (HRS). Rishab has strong interests in health equity, computational, and psychiatry research.
+        title: Rishab Bhatt
 
   - category: "Former Post-Doctoral Fellows"
     people:
@@ -226,7 +226,8 @@ lab_members:
 
   - category: "Former Undergraduate Students"
     people:
-      - description: As an undergraduate student at University of Georgia, Dr. Sharp examined patterns of Inheritance among families with Early-onset Alzheimer's Disease with Dr. Thomas Wingo in the 2012 SURE program. She went on to obtain her medical and masters degree from Virginia School of Medicine and is now a pediatric resident at UPMC Children's Hospital of Pittsburgh.
+      - pic_name: Elenaor
+        description: As an undergraduate student at University of Georgia, Dr. Sharp examined patterns of Inheritance among families with Early-onset Alzheimer's Disease with Dr. Thomas Wingo in the 2012 SURE program. She went on to obtain her medical and masters degree from Virginia School of Medicine and is now a pediatric resident at UPMC Children's Hospital of Pittsburgh.
         title: Eleanor A. Sharp, M.D., M.S.
       - pic_name: Mikolaj
         description: Mikolaj Figurski was a Data Science / Software Development intern in the lab from 2018-2019 who supported the application development team while he was an undergraduate student at Emory University. He anticipates graduating in 2022 with a Computer Science B.S and an Economics B.A.
