@@ -56,7 +56,7 @@ projects:
           In this project, we collaborate with investigators of the Rush Memory and Aging Project to identify genomic, transcriptomic, and proteomic associations with PWB.
           These findings will be examined for their relationship to dementia and age-related brain pathologies to understand the role PWB may have on dementia risk.
 
-  - title: Identifying putatively causal brain proteins in psychiatric and neurodegenerative conditions
+  - title: Identifying putatively causal brain proteins in psychiatric conditions
     description: >
       Variation in brain protein expression likely underlies some of the reason for differences in why people develop different brain related traits.
       These projects aim to use results of large-scale genome-wide association studies (GWAS) and brain protein expression to identify genes that contribute to development of particular brain diseases.
@@ -161,7 +161,7 @@ lab_members:
           He is a board certified neurologist with fellowship training in cognitive neurology.
           Dr. Wingo is a member of the Population Biology Evolution and Ecology Graduate Program at Emory University.
 
-  - category: "Research Staff"
+  - category: "Research Scientists"
     people:
       - pic_name: Ekaterina
         description: Dr. Gerasimov earned her doctoral degree in computer science at Georgia State University. She has comprehensive experience in bioinformatics and computational genomics and algorithms. Her general research interest at GSU was designing and applying advanced algorithms and statistical tools for analysis of next-generation sequencing data related to cancer and infection diseases. Dr. Gerasimov joined the Wingo lab in 2018 as an Assistant Bioinformatics Scientist.
