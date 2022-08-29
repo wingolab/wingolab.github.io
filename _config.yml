@@ -181,9 +181,6 @@ lab_members:
       - pic_name: Selina
         description: Dr. Vattathil received her Ph.D. in Human and Molecular Genetics from The University of Texas MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences in Houston, Texas. Her graduate and postdoctoral work focused on development and application of sensitive and robust pipelines to characterize somatic mutations in healthy individuals. Selina has used her computational genetics background to support various projects in the Wingo Lab since spring 2020.
         title: Selina Vattathil, Ph.D.
-      - pic_name: Vincent
-        description: Vincent Luo is an undergraduate student at Emory University double majoring in Neuroscience and Biology. He is currently working on a project about the differential analysis of miRNA in age-related non-AD hallmark pathologies. Vincent has an interest in sleep and its bidirectional relationship with Alzheimer’s Disease.
-        title: Vincent Luo
       - pic_name: Yue
         description: Dr. Yue Liu obtained his Ph.D from Structural and Computational Biology and Molecular Biophysics program at Baylor College of Medicine (BCM). His thesis work was in assembling whole genome sequencing data for complex genomes at the Human Genome Sequencing Center (HGSC) at BCM. He has since worked at HGSC for various projects in next generation sequencing data analysis. His current interest and focus at Wingo's lab is to combine proteomics and sequencing data for better understanding of the abundance profile of the proteins and its association to diseases.
         title: Yue Liu, Ph.D.
@@ -205,6 +202,12 @@ lab_members:
       - pic_name: Rishab
         description: Rishab Bhatt is an undergraduate student majoring in Neuroscience and Behavioral Biology and minoring in Computer Science. Joining the Wingo Lab in the fall of 2019, he uses machine learning to study Purpose-in-Life in both African and European Americans using the Health and Retirement Study (HRS). Rishab has strong interests in health equity, computational, and psychiatry research.
         title: Rishab Bhatt
+      - pic_name: Vincent
+        description: Vincent Luo is an undergraduate student at Emory University double majoring in Neuroscience and Biology. He is currently working on a project about the differential analysis of miRNA in age-related non-AD hallmark pathologies. Vincent has an interest in sleep and its bidirectional relationship with Alzheimer’s Disease.
+        title: Vincent Luo
+      - pic_name: Noel
+        description: Noel George is an undergraduate student at Emory Univesity majoring in Neuroscience and Behavioral Biology. Since joining Wingo Lab in the Fall of 2022, Noel has utilized skills in biology and computer science to study allele-specific protein abundance in human brains. 
+        title: Noel George 
 
   - category: "Former Post-Doctoral Fellows"
     people:
