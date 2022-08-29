@@ -163,12 +163,15 @@ lab_members:
 
   - category: "Research Scientists"
     people:
-      - pic_name: Ekaterina
-        description: Dr. Gerasimov earned her doctoral degree in computer science at Georgia State University. She has comprehensive experience in bioinformatics and computational genomics and algorithms. Her general research interest at GSU was designing and applying advanced algorithms and statistical tools for analysis of next-generation sequencing data related to cancer and infection diseases. Dr. Gerasimov joined the Wingo lab in 2018 as an Assistant Bioinformatics Scientist.
-        title: Ekaterina Gerasimov, Ph.D.
+      - pic_name: Caroline
+        description: Caroline Stanfield received her B.S. in Behavioral Neuroscience from Oglethorpe University. She joined the Wingo lab in August 2022 as a Research Specialist and helps with wet lab experiments.
+        title: Caroline Stanfield, B.S.
       - pic_name: Dennis
         description: Dennis Lin received his B.S. in Computer Science from Kennesaw State University. He joined the Wingo lab in April 2022 and assists in developing and maintaining the lab’s web applications and contributing to the development of tools for general analysis.
         title: Dennis Lin, B.S.
+      - pic_name: Ekaterina
+        description: Dr. Gerasimov earned her doctoral degree in computer science at Georgia State University. She has comprehensive experience in bioinformatics and computational genomics and algorithms. Her general research interest at GSU was designing and applying advanced algorithms and statistical tools for analysis of next-generation sequencing data related to cancer and infection diseases. Dr. Gerasimov joined the Wingo lab in 2018 as an Assistant Bioinformatics Scientist.
+        title: Ekaterina Gerasimov, Ph.D.
       - pic_name: Jiaqi
         description: Jiaqi Liu received her master's degree in Biostatistics from George Washington University. She joined the Wingo Lab in 2019 as a Biostatistician and contribute to the quality control of proteomics data and analysis of large omics datasets.
         title: Jiaqi Liu, M.S.
@@ -178,6 +181,9 @@ lab_members:
       - pic_name: Selina
         description: Dr. Vattathil received her Ph.D. in Human and Molecular Genetics from The University of Texas MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences in Houston, Texas. Her graduate and postdoctoral work focused on development and application of sensitive and robust pipelines to characterize somatic mutations in healthy individuals. Selina has used her computational genetics background to support various projects in the Wingo Lab since spring 2020.
         title: Selina Vattathil, Ph.D.
+      - pic_name: Vincent
+        description: Vincent Luo is an undergraduate student at Emory University double majoring in Neuroscience and Biology. He is currently working on a project about the differential analysis of miRNA in age-related non-AD hallmark pathologies. Vincent has an interest in sleep and its bidirectional relationship with Alzheimer’s Disease.
+        title: Vincent Luo
       - pic_name: Yue
         description: Dr. Yue Liu obtained his Ph.D from Structural and Computational Biology and Molecular Biophysics program at Baylor College of Medicine (BCM). His thesis work was in assembling whole genome sequencing data for complex genomes at the Human Genome Sequencing Center (HGSC) at BCM. He has since worked at HGSC for various projects in next generation sequencing data analysis. His current interest and focus at Wingo's lab is to combine proteomics and sequencing data for better understanding of the abundance profile of the proteins and its association to diseases.
         title: Yue Liu, Ph.D.
