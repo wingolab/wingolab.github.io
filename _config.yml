@@ -56,7 +56,7 @@ projects:
           In this project, we collaborate with investigators of the Rush Memory and Aging Project to identify genomic, transcriptomic, and proteomic associations with PWB.
           These findings will be examined for their relationship to dementia and age-related brain pathologies to understand the role PWB may have on dementia risk.
 
-  - title: Identifying putatively causal brain proteins in psychiatric and neurodegenerative conditions
+  - title: Identifying putatively causal brain proteins in psychiatric conditions
     description: >
       Variation in brain protein expression likely underlies some of the reason for differences in why people develop different brain related traits.
       These projects aim to use results of large-scale genome-wide association studies (GWAS) and brain protein expression to identify genes that contribute to development of particular brain diseases.
@@ -161,8 +161,14 @@ lab_members:
           He is a board certified neurologist with fellowship training in cognitive neurology.
           Dr. Wingo is a member of the Population Biology Evolution and Ecology Graduate Program at Emory University.
 
-  - category: "Research Staff"
+  - category: "Research Scientists"
     people:
+      - pic_name: Caroline
+        description: Caroline Stanfield received her B.S. in Behavioral Neuroscience from Oglethorpe University. She joined the Wingo lab in August 2022 as a Research Specialist and helps with wet lab experiments.
+        title: Caroline Stanfield, B.S.
+      - pic_name: Dennis
+        description: Dennis Lin received his B.S. in Computer Science from Kennesaw State University. He joined the Wingo lab in April 2022 and assists in developing and maintaining the lab’s web applications and contributing to the development of tools for general analysis.
+        title: Dennis Lin, B.S.
       - pic_name: Ekaterina
         description: Dr. Gerasimov earned her doctoral degree in computer science at Georgia State University. She has comprehensive experience in bioinformatics and computational genomics and algorithms. Her general research interest at GSU was designing and applying advanced algorithms and statistical tools for analysis of next-generation sequencing data related to cancer and infection diseases. Dr. Gerasimov joined the Wingo lab in 2018 as an Assistant Bioinformatics Scientist.
         title: Ekaterina Gerasimov, Ph.D.
@@ -199,6 +205,12 @@ lab_members:
       - pic_name: Rishab
         description: Rishab Bhatt is an undergraduate student majoring in Neuroscience and Behavioral Biology and minoring in Computer Science. Joining the Wingo Lab in the fall of 2019, he uses machine learning to study Purpose-in-Life in both African and European Americans using the Health and Retirement Study (HRS). Rishab has strong interests in health equity, computational, and psychiatry research.
         title: Rishab Bhatt
+      - pic_name: Vincent
+        description: Vincent Luo is an undergraduate student at Emory University double majoring in Neuroscience and Biology. He is currently working on a project about the differential analysis of miRNA in age-related non-AD hallmark pathologies. Vincent has an interest in sleep and its bidirectional relationship with Alzheimer’s Disease.
+        title: Vincent Luo
+      - pic_name: Noel
+        description: Noel George is an undergraduate student at Emory Univesity majoring in Neuroscience and Behavioral Biology. Since joining Wingo Lab in the Fall of 2022, Noel has utilized skills in biology and computer science to study allele-specific protein abundance in human brains. 
+        title: Noel George 
 
   - category: "Former Post-Doctoral Fellows"
     people:
