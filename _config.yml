@@ -172,6 +172,9 @@ lab_members:
       - pic_name: Ekaterina
         description: Dr. Gerasimov earned her doctoral degree in computer science at Georgia State University. She has comprehensive experience in bioinformatics and computational genomics and algorithms. Her general research interest at GSU was designing and applying advanced algorithms and statistical tools for analysis of next-generation sequencing data related to cancer and infection diseases. Dr. Gerasimov joined the Wingo lab in 2018 as an Assistant Bioinformatics Scientist.
         title: Ekaterina Gerasimov, Ph.D.
+      - pic_name: Dennis
+        description: Dennis Lin received his B.S. in Computer Science from Kennesaw State University. He joined the Wingo lab in April 2022 and assists in developing and maintaining the lab’s web applications and contributing to the development of tools for general analysis.
+        title: Dennis Lin, B.S.
       - pic_name: Jiaqi
         description: Jiaqi Liu received her master's degree in Biostatistics from George Washington University. She joined the Wingo Lab in 2019 as a Biostatistician and contribute to the quality control of proteomics data and analysis of large omics datasets.
         title: Jiaqi Liu, M.S.
